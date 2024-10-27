@@ -4,21 +4,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView1"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_margin="8dp"
-        android:background="#F0F0F0"/>
+        android:id="@+id/recyclerViewItems"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp" />
+    </RelativeLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView2"
+
+    <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_margin="8dp"
-        android:background="#F0F0F0"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerDropped1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#F0F0F0"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerDropped2"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#F0F0F0"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerDropped3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#F0F0F0"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>

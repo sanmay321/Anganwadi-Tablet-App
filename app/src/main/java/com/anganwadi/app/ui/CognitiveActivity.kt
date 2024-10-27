@@ -15,18 +15,17 @@ class CognitiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCognitiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // Add the fragment if not already added (after configuration change)
         if (savedInstanceState == null) {
             replaceFragment(CognitivieTaskFirstFragment())
         }
         binding.btnNext.setOnClickListener {
-            replaceFragment(CognitiveTaskSecondFragment())
+            replaceFragment(CognitiveTaskThirdFragment())
         }
     }
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(binding.fragmentContainer.id, fragment)
-            .addToBackStack(null) // Add to back stack to handle back navigation
+            .addToBackStack(null)
             .commit()
     }
 
