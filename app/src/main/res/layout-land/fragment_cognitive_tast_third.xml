@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:text="Choose the missing part"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+    <!-- Center Empty Square -->
+    <FrameLayout
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/cl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        android:layout_gravity="center"
+        android:background="@drawable/background_8_white"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="32dp">
+
+        <ImageView
+            android:layout_margin="24dp"
+            android:src="@drawable/ic_cognitive_task_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!-- Bottom Buttons Section -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_weight="1">
+
+        <!-- Top row buttons -->
+        <LinearLayout
+            android:id="@+id/topButtonsRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:src="@drawable/ic_cognitive_task_option1"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:id="@+id/btnPlus"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_8_white"/>
+
+            <ImageView
+                android:src="@drawable/ic_cognitive_task_option2"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/btnCircle"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_8_white"/>
+            <ImageView
+                android:src="@drawable/ic_cognitive_task_option3"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:id="@+id/btnMinus"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_8_white"/>
+
+            <ImageView
+                android:src="@drawable/ic_cognitive_task_option4"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/btnEqual"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_8_white"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

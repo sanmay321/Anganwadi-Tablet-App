@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Text -->
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select the correct symbol inside the shape"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Top Symbol Options in Beige Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_8_orange"
+        android:paddingHorizontal="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_8_orange"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:paddingHorizontal="32dp">
+            <RelativeLayout
+                android:id="@+id/shapeStar"
+                android:layout_width="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="68dp">
+                <ImageView
+                    android:src="@drawable/ic_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="o"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/shapeCircle"
+                android:layout_width="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="68dp">
+                <ImageView
+                    android:src="@drawable/ic_circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="="
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/shapeSquare"
+                android:layout_width="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="68dp">
+                <ImageView
+                    android:src="@drawable/ic_square"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shapeTriangle"
+                android:layout_width="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="68dp">
+                <ImageView
+                    android:src="@drawable/ic_triangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Center Empty Square -->
+    <FrameLayout
+        android:layout_width="150dp"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="24dp"
+        android:background="@drawable/background_8_white">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_circle" />
+    </FrameLayout>
+
+    <!-- Bottom Buttons Section -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_weight="1">
+
+        <!-- Top row buttons -->
+        <LinearLayout
+            android:id="@+id/topButtonsRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/btnPlus"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_8_white"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/btnCircle"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_8_white"
+                android:gravity="center"
+                android:text="o"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/btnMinus"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_8_white"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/btnEqual"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_8_white"
+                android:gravity="center"
+                android:text="="
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
