@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.anganwadi.app.databinding.ActivityCognitiveBinding
+import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
 import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
 
@@ -19,7 +20,7 @@ class CognitiveActivity : AppCompatActivity() {
             replaceFragment(CognitivieTaskFirstFragment())
         }
         binding.btnNext.setOnClickListener {
-            replaceFragment(CognitiveTaskThirdFragment())
+            replaceFragment(CognitiveTaskSecondFragment())
         }
     }
     private fun replaceFragment(fragment: Fragment) {
