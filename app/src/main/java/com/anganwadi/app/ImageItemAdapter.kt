@@ -9,11 +9,11 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.anganwadi.app.model.ImageModel
 
-class DraggableItemAdapter(
+class ImageItemAdapter(
     private var context: Context,
     private val itemList: ArrayList<ImageModel>, // List of drawable resource IDs
     private val isPotrait: Boolean
-) : RecyclerView.Adapter<DraggableItemAdapter.ViewHolder>() {
+) : RecyclerView.Adapter<ImageItemAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val imageView: ImageView = view.findViewById(R.id.imageViewItem)
@@ -31,15 +31,18 @@ class DraggableItemAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_layout, parent, false)
+            .inflate(R.layout.item_master_layout, parent, false)
         return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.itemView.layoutParams.height =
-            context.resources.getDimensionPixelSize(R.dimen.size_40)
-        holder.itemView.layoutParams.width =
-            context.resources.getDimensionPixelSize(R.dimen.size_40)
+        val size = if (isPotrait) {
+            context.resources.getDimensionPixelSize(R.dimen.size_100)
+        } else {
+            context.resources.getDimensionPixelSize(R.dimen.size_120)
+        }
+        holder.itemView.layoutParams.height =size
+        holder.itemView.layoutParams.width =size
         holder.itemView.requestLayout()
         holder.imageView.setImageResource(itemList[position].image)
 

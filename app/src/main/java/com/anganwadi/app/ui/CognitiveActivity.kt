@@ -19,7 +19,7 @@ class CognitiveActivity : AppCompatActivity() {
             replaceFragment(CognitivieTaskFirstFragment())
         }
         binding.btnNext.setOnClickListener {
-            replaceFragment(CognitiveTaskThirdFragment())
+            replaceFragment(CognitiveTaskSecondFragment())
         }
     }
     private fun replaceFragment(fragment: Fragment) {
