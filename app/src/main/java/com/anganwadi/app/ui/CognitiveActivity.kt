@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.anganwadi.app.databinding.ActivityCognitiveBinding
+import com.anganwadi.app.ui.fragment.CognitiveTaskFifthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
@@ -11,14 +12,14 @@ import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
-    private var position=0
+    private var position = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCognitiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
         if (savedInstanceState == null) {
-            position=1
+            position = 1
             replaceFragment(CognitivieTaskFirstFragment())
         }
         binding.btnNext.setOnClickListener {
@@ -33,9 +34,13 @@ class CognitiveActivity : AppCompatActivity() {
                 4 -> {
                     replaceFragment(CognitiveTaskForthFragment())
                 }
+                5 -> {
+                    replaceFragment(CognitiveTaskFifthFragment())
+                }
             }
         }
     }
+
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(binding.fragmentContainer.id, fragment)
