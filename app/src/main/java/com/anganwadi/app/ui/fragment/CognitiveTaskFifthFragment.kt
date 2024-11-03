@@ -99,7 +99,7 @@ class CognitiveTaskFifthFragment : BaseFragment() {
             binding.recyclerDropped2.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 4)
+                GridLayoutManager(requireActivity(), 5)
         }
     }
     private fun page2() {
@@ -128,7 +128,7 @@ class CognitiveTaskFifthFragment : BaseFragment() {
             binding.recyclerDropped2.layoutManager =
                 GridLayoutManager(requireActivity(), 4)
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 4)
+                GridLayoutManager(requireActivity(), 5)
         }
     }
 }

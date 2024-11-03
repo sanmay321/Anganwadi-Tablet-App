@@ -7,10 +7,9 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentCognitiveTastThirdBinding
 import com.anganwadi.app.databinding.FragmentPhyisicalDevelopmentTaskFirst2Binding
 
-class PhysicalDevelopmentTaskFirstFragment : BaseFragment() {
+class PhysicalDevelopmentTaskFirst2Fragment : BaseFragment() {
     private var _binding: FragmentPhyisicalDevelopmentTaskFirst2Binding? = null
     private val binding get() = _binding!!
 

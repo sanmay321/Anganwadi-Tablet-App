@@ -8,8 +8,8 @@ import com.anganwadi.app.ui.fragment.CognitiveTaskFifthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
-import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirstFragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
 
 class PhysicalDevelopmentActivity: AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
@@ -21,13 +21,13 @@ class PhysicalDevelopmentActivity: AppCompatActivity() {
         setContentView(binding.root)
         if (savedInstanceState == null) {
             position = 1
-            replaceFragment(PhysicalDevelopmentTaskFirstFragment())
+            replaceFragment(PhysicalDevelopmentTaskFirst2Fragment())
         }
         binding.btnNext.setOnClickListener {
             position++
             when (position) {
                 2 -> {
-                    replaceFragment(CognitiveTaskSecondFragment())
+                    replaceFragment(PhysicalDevelopmentTaskFirst1Fragment())
                 }
                 3 -> {
                     replaceFragment(CognitiveTaskThirdFragment())
