@@ -11,6 +11,7 @@ import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
 import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskSecondFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
 
 class CognitiveActivity : AppCompatActivity() {
@@ -47,6 +48,9 @@ class CognitiveActivity : AppCompatActivity() {
                     replaceFragment(PhysicalDevelopmentTaskFirst2Fragment())
                 }
                 8 -> {
+                    replaceFragment(PhysicalDevelopmentTaskSecondFragment())
+                }
+                9 -> {
                     replaceFragment(PhysicalDevelopmentTaskThirdFragment())
                 }
             }

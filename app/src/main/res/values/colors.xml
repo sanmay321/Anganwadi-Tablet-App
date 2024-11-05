@@ -9,5 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#AEAEAE</color>
     <color name="lightorange">#FBE2BC</color>
-
+    <color name="colorDarkGray">#727C98</color>
+    <color name="colorGreen">#75D37F</color>
+    <color name="colorRed">#F45076</color>
+    <color name="colorBlue">#2893E4</color>
+    <color name="colorOrange">#FFC107</color>
+    <color name="colorYellow">#FFEB3B</color>
 </resources>
