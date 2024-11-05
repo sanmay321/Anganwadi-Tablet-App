@@ -14,7 +14,7 @@
         android:name=".MainApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ui.PhysicalDevelopmentActivity"
+            android:name=".ui.CognitiveActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>

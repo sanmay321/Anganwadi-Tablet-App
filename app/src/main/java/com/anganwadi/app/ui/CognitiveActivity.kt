@@ -9,6 +9,9 @@ import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
 import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
+import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
@@ -36,6 +39,15 @@ class CognitiveActivity : AppCompatActivity() {
                 }
                 5 -> {
                     replaceFragment(CognitiveTaskFifthFragment())
+                }
+                6 -> {
+                    replaceFragment(PhysicalDevelopmentTaskFirst1Fragment())
+                }
+                7 -> {
+                    replaceFragment(PhysicalDevelopmentTaskFirst2Fragment())
+                }
+                8 -> {
+                    replaceFragment(PhysicalDevelopmentTaskThirdFragment())
                 }
             }
         }
