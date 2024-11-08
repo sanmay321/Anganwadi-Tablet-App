@@ -51,6 +51,10 @@ class PhysicalDevelopmentTaskSecondFragment: BaseFragment() {
         senses.forEach { sense ->
             sense.setOnClickListener {
                 if (!listTrueConnection.contains(sense.id.toString())) {
+                    selectedSense?.background = ContextCompat.getDrawable(
+                        requireContext(),
+                        R.drawable.background_rounded_border_green
+                    )
                     sense.background = ContextCompat.getDrawable(
                         requireContext(),
                         R.drawable.background_light_green_border_green
@@ -79,10 +83,10 @@ class PhysicalDevelopmentTaskSecondFragment: BaseFragment() {
 
                         } else {
                             // Show error message
-                            Toast.makeText(requireContext(),
-                                "Invalid connection",
-                                Toast.LENGTH_SHORT
-                            ).show()
+//                            Toast.makeText(requireContext(),
+//                                "Invalid connection",
+//                                Toast.LENGTH_SHORT
+//                            ).show()
                             sense.background = ContextCompat.getDrawable(
                                 requireContext(),
                                 R.drawable.background_rounded_border_green
