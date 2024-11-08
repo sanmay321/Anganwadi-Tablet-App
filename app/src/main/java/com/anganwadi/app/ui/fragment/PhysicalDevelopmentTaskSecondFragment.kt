@@ -108,7 +108,7 @@ class PhysicalDevelopmentTaskSecondFragment: BaseFragment() {
     private fun drawLine(start: View, end: View, color: Int) {
         val startX = start.x + start.width
         val startY = start.y + start.height / 2
-        val endX = end.x
+        val endX = binding.rightColumn.x
         val endY = end.y + end.height / 2
         binding.lineDrawView.addLine(startX, startY, endX, endY, color)
     }

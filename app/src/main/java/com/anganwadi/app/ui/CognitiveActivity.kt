@@ -25,7 +25,7 @@ class CognitiveActivity : AppCompatActivity() {
         setContentView(binding.root)
         if (savedInstanceState == null) {
             position = 1
-            replaceFragment(CognitivieTaskFirstFragment())
+            replaceFragment(PhysicalDevelopmentTaskSecondFragment())
         }
         binding.btnNext.setOnClickListener {
             position++
