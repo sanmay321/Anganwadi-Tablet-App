@@ -9,6 +9,9 @@ import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
 import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
+import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondAudioFragment
+import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondOddFragment
+import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondVisualFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
@@ -23,40 +26,29 @@ class CognitiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCognitiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val fragments= arrayListOf(
+            CognitivieTaskFirstFragment(),
+            CognitiveTaskSecondFragment(),
+            CognitiveTaskThirdFragment(),
+            CognitiveTaskForthFragment(),
+            CognitiveTaskFifthFragment(),
+            PhysicalDevelopmentTaskFirst1Fragment(),
+            PhysicalDevelopmentTaskFirst2Fragment(),
+            PhysicalDevelopmentTaskSecondFragment(),
+            PhysicalDevelopmentTaskThirdFragment(),
+            PhysicalDevelopmentTaskFourthFragment(),
+            LanguageLiteracyTaskSecondAudioFragment(),
+            LanguageLiteracyTaskSecondVisualFragment(),
+            LanguageLiteracyTaskSecondOddFragment(),
+        )
         if (savedInstanceState == null) {
             position = 1
-            replaceFragment(CognitivieTaskFirstFragment())
+            replaceFragment(fragments[0])
         }
         binding.btnNext.setOnClickListener {
-            position++
-            when (position) {
-                2 -> {
-                    replaceFragment(CognitiveTaskSecondFragment())
-                }
-                3 -> {
-                    replaceFragment(CognitiveTaskThirdFragment())
-                }
-                4 -> {
-                    replaceFragment(CognitiveTaskForthFragment())
-                }
-                5 -> {
-                    replaceFragment(CognitiveTaskFifthFragment())
-                }
-                6 -> {
-                    replaceFragment(PhysicalDevelopmentTaskFirst1Fragment())
-                }
-                7 -> {
-                    replaceFragment(PhysicalDevelopmentTaskFirst2Fragment())
-                }
-                8 -> {
-                    replaceFragment(PhysicalDevelopmentTaskSecondFragment())
-                }
-                9 -> {
-                    replaceFragment(PhysicalDevelopmentTaskThirdFragment())
-                }
-                10 -> {
-                    replaceFragment(PhysicalDevelopmentTaskFourthFragment())
-                }
+            if(position<fragments.size) {
+                position++
+                replaceFragment(fragments[position - 1])
             }
         }
     }
