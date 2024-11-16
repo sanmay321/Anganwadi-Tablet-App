@@ -13,6 +13,7 @@ import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondAudioFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondIdentifyObjectFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondOddFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondVisualFragment
+import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskThirdLetterImageFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
@@ -42,6 +43,7 @@ class CognitiveActivity : AppCompatActivity() {
             LanguageLiteracyTaskSecondVisualFragment(),
             LanguageLiteracyTaskSecondOddFragment(),
             LanguageLiteracyTaskSecondIdentifyObjectFragment(),
+            LanguageLiteracyTaskThirdLetterImageFragment(),
         )
         if (savedInstanceState == null) {
             position = 1
