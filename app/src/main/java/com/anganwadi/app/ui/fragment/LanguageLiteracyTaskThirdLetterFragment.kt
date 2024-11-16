@@ -9,19 +9,19 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anganwadi.app.QuestionAdapter
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentLanguageLiteracyTaskThirdLetterImageBinding
+import com.anganwadi.app.databinding.FragmentLanguageLiteracyTaskThirdLetterBinding
 
-class LanguageLiteracyTaskThirdLetterImageFragment : Fragment() {
-    private var _binding: FragmentLanguageLiteracyTaskThirdLetterImageBinding? = null
+class LanguageLiteracyTaskThirdLetterFragment: Fragment() {
+    private var _binding: FragmentLanguageLiteracyTaskThirdLetterBinding? = null
     private val binding get() = _binding!!
-    private val listOptions = arrayListOf("L", "M", "M", "M")
+    private val listOptions= arrayListOf("L", "M", "M","M")
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding =
-            FragmentLanguageLiteracyTaskThirdLetterImageBinding.inflate(inflater, container, false)
+        _binding = FragmentLanguageLiteracyTaskThirdLetterBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -39,20 +39,17 @@ class LanguageLiteracyTaskThirdLetterImageFragment : Fragment() {
                     ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
             }
         }
-        binding.ivIcon.setImageResource(getImage(0))
         binding.rv.apply {
             val questionText = getQuestionText(0)
-            layoutManager =
-                LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-            adapter = QuestionAdapter(requireContext(), questionText)
+            layoutManager= LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            adapter= QuestionAdapter(requireContext(), questionText)
         }
-        val options = listOptions
+        val options= listOptions
         arrayListOptionsId.forEachIndexed { index, textView ->
-            textView.text = options[index]
+            textView.text=options[index]
         }
 
     }
-
     private fun clearAllBackground() {
         val arrayList =
             arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
@@ -61,9 +58,8 @@ class LanguageLiteracyTaskThirdLetterImageFragment : Fragment() {
                 ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_white)
         }
     }
-
-    private fun getQuestionText(index: Int): List<Char> {
-        val listQuestion = arrayListOf<String>(
+    private fun getQuestionText(index: Int) : List<Char>{
+        val listQuestion= arrayListOf<String>(
             "BAL?",
             "?AT",
             "BI?D",
@@ -72,20 +68,6 @@ class LanguageLiteracyTaskThirdLetterImageFragment : Fragment() {
             "B?OK",
         )
         return listQuestion[index].toList()
-    }
-
-    private fun getImage(index: Int): Int {
-        val listImage = arrayListOf<Int>(
-            R.drawable.ic_object_ball,
-            R.drawable.ic_object_cat,
-            R.drawable.ic_object_bird,
-            R.drawable.ic_object_grass,
-            R.drawable.ic_object_tiger,
-            R.drawable.ic_object_book,
-            R.drawable.ic_object_glass,
-            R.drawable.ic_object_fan
-        )
-        return listImage[index]
     }
 
 }
