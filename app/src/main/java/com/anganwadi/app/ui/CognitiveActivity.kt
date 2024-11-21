@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.anganwadi.app.databinding.ActivityCognitiveBinding
+import com.anganwadi.app.ui.fragment.AestheticTaskFirstFragment
+import com.anganwadi.app.ui.fragment.AestheticTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskFifthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
@@ -46,6 +48,8 @@ class CognitiveActivity : AppCompatActivity() {
             LanguageLiteracyTaskSecondIdentifyObjectFragment(),
             LanguageLiteracyTaskThirdLetterImageFragment(),
             LanguageLiteracyTaskThirdLetterFragment(),
+            AestheticTaskFirstFragment(),
+            AestheticTaskSecondFragment(),
         )
         if (savedInstanceState == null) {
             position = 1
