@@ -11,6 +11,7 @@ import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
 import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
 import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
+import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskFirstFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondAudioFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondIdentifyObjectFragment
 import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondOddFragment
@@ -42,6 +43,7 @@ class CognitiveActivity : AppCompatActivity() {
             PhysicalDevelopmentTaskSecondFragment(),
             PhysicalDevelopmentTaskThirdFragment(),
             PhysicalDevelopmentTaskFourthFragment(),
+            LanguageLiteracyTaskFirstFragment(),
             LanguageLiteracyTaskSecondAudioFragment(),
             LanguageLiteracyTaskSecondVisualFragment(),
             LanguageLiteracyTaskSecondOddFragment(),
