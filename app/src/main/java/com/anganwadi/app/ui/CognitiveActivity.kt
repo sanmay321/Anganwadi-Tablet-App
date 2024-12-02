@@ -23,6 +23,8 @@ import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskSecondFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
+import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_1
+import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_3
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
