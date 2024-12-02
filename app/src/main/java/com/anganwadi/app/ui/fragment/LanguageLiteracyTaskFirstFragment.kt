@@ -63,7 +63,9 @@ class LanguageLiteracyTaskFirstFragment : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        mediaPlayer.release()
+        if(::mediaPlayer.isInitialized) {
+            mediaPlayer.release()
+        }
     }
 
     private fun showRecordingView() {

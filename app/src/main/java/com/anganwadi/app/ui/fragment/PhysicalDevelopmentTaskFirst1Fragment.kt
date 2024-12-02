@@ -48,7 +48,7 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         val ageRange = SessionManager.getAge(requireContext())
         binding.frQuestionImage.visibility = View.GONE
-        binding.llQuestion?.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
         binding.frImageClue.visibility = View.GONE
         binding.tvTitle.text = "Select unhealthy food."
         val orientation = resources.configuration.orientation
@@ -57,6 +57,8 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
                 if (orientation == Configuration.ORIENTATION_PORTRAIT) {
                     binding.bottomButtonsRow?.hideView()
                     setMarginVertical(4)
+                } else {
+                    setMarginVertical(10)
                 }
                 binding.btnMinus.hideView()
                 binding.btnFour.hideView()
@@ -68,12 +70,15 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
                 if (orientation == Configuration.ORIENTATION_PORTRAIT) {
                     setupPortraitLayout()
                     setMarginVertical(8)
+                } else {
+                    setMarginVertical(10)
                 }
                 page2()
             }
 
             else -> {
                 page3()
+                setMarginVertical(10)
             }
         }
     }

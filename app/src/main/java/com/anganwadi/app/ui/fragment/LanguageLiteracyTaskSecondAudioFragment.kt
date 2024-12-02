@@ -1,5 +1,6 @@
 package com.anganwadi.app.ui.fragment
 
+import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.media.MediaPlayer.OnCompletionListener
 import android.os.Bundle
@@ -11,54 +12,31 @@ import androidx.fragment.app.Fragment
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentLangguageLiteracyTaskSecondAudioBinding
 
-class LanguageLiteracyTaskSecondAudioFragment : Fragment() {
-    private var _binding: FragmentLangguageLiteracyTaskSecondAudioBinding? = null
-    private val binding get() = _binding!!
+class LanguageLiteracyTaskSecondAudioFragment : MultipleOptionsBaseFragment() {
     private val listOptions = arrayListOf("L", "M", "M", "M")
     private var mediaPlayer: MediaPlayer? = null
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding =
-            FragmentLangguageLiteracyTaskSecondAudioBinding.inflate(inflater, container, false)
-        return binding.root
-    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val arrayList =
-            arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
-        val arrayListOptionsId =
-            arrayOf(binding.tvTitle1, binding.tvTitle2, binding.tvTitle3, binding.tvTitle4)
-
-        arrayList.forEach { view ->
-            view.setOnClickListener {
-                clearAllBackground()
-                view.background =
-                    ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
-            }
-        }
-        val options = listOptions
-        arrayListOptionsId.forEachIndexed { index, textView ->
-            textView.text = options[index]
-        }
+        binding.frQuestionImage.visibility = View.GONE
+        binding.tvTitleQuestion.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
+        binding.frImageClue.visibility = View.GONE
+        binding.ivIconSound.visibility = View.VISIBLE
+        binding.tvTitle.text="Choose beginning letter sound"
         binding.ivIconSound.setOnClickListener {
             playFromRaw()
         }
-    }
-
-    private fun clearAllBackground() {
-        val arrayList =
-            arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
-        arrayList.forEach {
-            it.background =
-                ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_white)
+        val orientation = resources.configuration.orientation
+        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+            setMarginVertical(6)
+        } else {
+            setMarginVertical(10)
         }
     }
 
-    fun playFromRaw() {
+    private fun playFromRaw() {
         binding.ivIconSound.setImageResource(R.drawable.ic_sound_on)
         try {
             mediaPlayer?.release()

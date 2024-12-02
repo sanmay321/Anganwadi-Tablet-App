@@ -19,7 +19,7 @@ class LanguageLiteracyTaskSecondIdentifyObjectFragment : MultipleOptionsBaseFrag
         super.onViewCreated(view, savedInstanceState)
         binding.frQuestionImage.visibility = View.GONE
         binding.tvTitleQuestion.visibility = View.VISIBLE
-        binding.llQuestion?.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
         binding.frImageClue.visibility = View.GONE
         binding.tvTitle.text = "Identify the object.."
         binding.tvTitleQuestion.text = "Book"

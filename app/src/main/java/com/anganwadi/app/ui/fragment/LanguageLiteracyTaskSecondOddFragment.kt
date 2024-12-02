@@ -1,5 +1,6 @@
 package com.anganwadi.app.ui.fragment
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -27,11 +28,16 @@ class LanguageLiteracyTaskSecondOddFragment: MultipleOptionsBaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.frQuestionImage.visibility = View.GONE
         binding.tvTitleQuestion.visibility = View.GONE
-        binding.llQuestion?.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
         binding.frImageClue.visibility = View.GONE
         binding.tvTitle.text="Choose the odd one out"
         page1()
-        setMarginVertical(4)
+        val orientation = resources.configuration.orientation
+        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+            setMarginVertical(6)
+        } else {
+            setMarginVertical(10)
+        }
     }
 
 

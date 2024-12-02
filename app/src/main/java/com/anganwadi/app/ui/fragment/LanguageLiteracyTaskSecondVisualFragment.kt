@@ -9,9 +9,7 @@ import androidx.fragment.app.Fragment
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentLanguageLiteracyTaskSecondVisualBinding
 
-class LanguageLiteracyTaskSecondVisualFragment : Fragment() {
-    private var _binding: FragmentLanguageLiteracyTaskSecondVisualBinding? = null
-    private val binding get() = _binding!!
+class LanguageLiteracyTaskSecondVisualFragment : MultipleOptionsBaseFragment() {
     private val listOptions= arrayListOf("L", "M", "M","M")
     private val listImages= arrayListOf(
         R.drawable.ic_ll_anaar,
@@ -40,41 +38,17 @@ class LanguageLiteracyTaskSecondVisualFragment : Fragment() {
         R.drawable.ic_ll_tree,
         R.drawable.ic_ll_tree_2,
     )
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentLanguageLiteracyTaskSecondVisualBinding.inflate(inflater, container, false)
-        return binding.root
-    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val arrayList =
-            arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
-        val arrayListOptionsId =
-            arrayOf(binding.tvTitle1, binding.tvTitle2, binding.tvTitle3, binding.tvTitle4)
-
-        arrayList.forEach { view ->
-            view.setOnClickListener {
-                clearAllBackground()
-                view.background =
-                    ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
-            }
-        }
-        val options= listOptions
-        arrayListOptionsId.forEachIndexed { index, textView ->
-            textView.text=options[index]
-        }
+        binding.frQuestionImage.visibility = View.GONE
+        binding.tvTitleQuestion.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
+        binding.frImageClue.visibility = View.GONE
+        binding.ivIconSound.visibility = View.VISIBLE
+        binding.tvTitle.text="Match the letter with image"
 
     }
-    private fun clearAllBackground() {
-        val arrayList =
-            arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
-        arrayList.forEach {
-            it.background =
-                ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_white)
-        }
-    }
+
 }
