@@ -195,10 +195,10 @@
             android:layout_gravity="center"
             android:layout_marginHorizontal="32dp"
             android:layout_marginVertical="32dp"
-            android:layout_weight="1"
-            android:background="@drawable/background_8_white">
+            android:layout_weight="1">
 
             <ImageView
+                android:scaleType="centerCrop"
                 android:id="@+id/iv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -233,7 +233,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option1">
 
@@ -250,7 +249,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option2">
 
@@ -273,17 +271,16 @@
             app:layout_constraintTop_toBottomOf="@id/topButtonsRow">
 
             <RelativeLayout
-                android:id="@+id/btnMinus"
+                android:id="@+id/btnThree"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option3">
 
                 <ImageView
-                    android:id="@+id/ivBtnMinus"
+                    android:id="@+id/ivBtnThree"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_cognitive_task_option1" />
@@ -295,7 +292,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option4">
 

@@ -60,13 +60,13 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
                 } else {
                     setMarginVertical(10)
                 }
-                binding.btnMinus.hideView()
+                binding.btnThree.hideView()
                 binding.btnFour.hideView()
                 page1()
             }
 
             "4-5" -> {
-                binding.btnMinus.hideView()
+                binding.btnThree.hideView()
                 if (orientation == Configuration.ORIENTATION_PORTRAIT) {
                     setupPortraitLayout()
                     setMarginVertical(8)
@@ -85,7 +85,7 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
 
     private fun page1() {
         val arrayList =
-            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnMinus, binding.ivBtnFour)
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         arrayList.forEachIndexed { index, imageView ->
             imageView.setImageResource(listOptions1[index])
         }
@@ -93,11 +93,11 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
 
     private fun page2() {
         val arrayList =
-            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnMinus, binding.ivBtnFour)
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         arrayList.forEachIndexed { index, imageView ->
             imageView.setImageResource(listOptions2[index])
         }
-        binding.btnMinus.hideView()
+        binding.btnThree.hideView()
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             setupPortraitLayout()
@@ -106,7 +106,7 @@ class PhysicalDevelopmentTaskFirst1Fragment : MultipleOptionsBaseFragment() {
 
     private fun page3() {
         val arrayList =
-            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnMinus, binding.ivBtnFour)
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         arrayList.forEachIndexed { index, imageView ->
             imageView.setImageResource(listOptions3[index])
         }

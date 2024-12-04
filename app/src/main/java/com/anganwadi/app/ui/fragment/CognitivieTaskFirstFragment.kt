@@ -2,15 +2,9 @@ package com.anganwadi.app.ui.fragment
 
 import android.content.res.Configuration
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
-import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentCognitiveTaskFirstBinding
-import com.anganwadi.app.util.Constant
 import com.anganwadi.app.util.SessionManager
 
 class CognitivieTaskFirstFragment : MultipleOptionsBaseFragment() {
@@ -36,7 +30,7 @@ class CognitivieTaskFirstFragment : MultipleOptionsBaseFragment() {
 
     private fun setViewBaseOnAge(ageRange: String) {
         if (ageRange == "3-4") {
-            binding.btnMinus.hideView()
+            binding.btnThree.hideView()
             binding.btnFour.hideView()
             binding.shapeSquare.hideView()
             binding.shapeTriangle.hideView()
@@ -53,7 +47,7 @@ class CognitivieTaskFirstFragment : MultipleOptionsBaseFragment() {
                     R.drawable.ic_square
                 )
             )
-            binding.btnMinus.hideView()
+            binding.btnThree.hideView()
             binding.shapeTriangle.hideView()
             val orientation = resources.configuration.orientation
             if (orientation == Configuration.ORIENTATION_PORTRAIT) {

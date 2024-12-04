@@ -193,13 +193,13 @@
         android:layout_gravity="center"
         android:layout_marginVertical="24dp"
         android:layout_weight="1"
-        android:background="@drawable/background_8_white"
         android:padding="16dp">
 
         <ImageView
             android:id="@+id/iv"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:src="@drawable/ic_circle" />
     </FrameLayout>
@@ -226,7 +226,6 @@
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option1">
 
@@ -242,7 +241,6 @@
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option2">
                 <ImageView
@@ -252,16 +250,15 @@
                     android:layout_height="match_parent"/>
             </RelativeLayout>
             <RelativeLayout
-                android:id="@+id/btnMinus"
+                android:id="@+id/btnThree"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option3">
                 <ImageView
-                    android:id="@+id/ivBtnMinus"
+                    android:id="@+id/ivBtnThree"
                     android:src="@drawable/ic_cognitive_task_option1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
@@ -272,7 +269,6 @@
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/background_8_white"
                 android:gravity="center"
                 android:src="@drawable/ic_cognitive_task_option4">
                 <ImageView

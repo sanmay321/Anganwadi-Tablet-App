@@ -28,7 +28,7 @@ class LanguageLiteracyTaskSecondIdentifyObjectFragment : MultipleOptionsBaseFrag
         imageOptions.forEachIndexed { index, imageView ->
             imageView.setImageResource(options[index])
         }
-        binding.btnMinus.hideView()
+        binding.btnThree.hideView()
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             setupPortraitLayout()

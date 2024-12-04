@@ -8,8 +8,6 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentCognitiveTaskFirstBinding
-import com.anganwadi.app.databinding.FragmentCognitiveTastThirdBinding
 
 class CognitiveTaskThirdFragment : MultipleOptionsBaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -21,7 +19,7 @@ class CognitiveTaskThirdFragment : MultipleOptionsBaseFragment() {
             R.drawable.ic_cognitive_task_option3,
             R.drawable.ic_cognitive_task_option4)
         val arrayList =
-            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnMinus, binding.ivBtnFour)
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         arrayList.forEachIndexed { index, view ->
             view.setImageResource(drawable[index])
         }

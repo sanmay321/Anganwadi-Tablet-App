@@ -43,7 +43,7 @@ class LanguageLiteracyTaskSecondOddFragment: MultipleOptionsBaseFragment() {
 
     private fun page1() {
         val arrayListImage =
-            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnMinus, binding.ivBtnFour)
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         arrayListImage.forEachIndexed { index, imageView ->
             imageView.setImageResource(listOptions1[index])
 

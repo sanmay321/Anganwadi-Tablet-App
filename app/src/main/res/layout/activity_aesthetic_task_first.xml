@@ -31,10 +31,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintDimensionRatio="h,1:1"
-            android:id="@+id/ivIconSound"
+            android:id="@+id/iv"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/ic_intersect" />
+            android:layout_height="match_parent"/>
         <LinearLayout
             android:id="@+id/llOption"
             android:layout_width="match_parent"
@@ -50,18 +49,18 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:tag="o1"
                     android:id="@+id/rl1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_egg_position"
                     android:orientation="horizontal"
                     android:padding="8dp"/>
 
                 <ImageView
-                    android:id="@+id/rl2"
-                    android:src="@drawable/ic_egg_position"
+                    android:tag="o3"
+                    android:id="@+id/rl3"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_margin="8dp"
@@ -79,22 +78,22 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/rl3"
+                    android:tag="o2"
+                    android:id="@+id/rl2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_egg_position"
                     android:orientation="horizontal"
                     android:padding="8dp"/>
 
                 <ImageView
+                    android:tag="o4"
                     android:id="@+id/rl4"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_egg_position"
                     android:orientation="horizontal"
                     android:padding="8dp"/>
             </LinearLayout>
