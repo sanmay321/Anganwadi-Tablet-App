@@ -29,6 +29,7 @@ import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskSecondFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
+import com.anganwadi.app.ui.fragment.StructureFourFragment
 import com.anganwadi.app.ui.fragment.StructureThreeFragment
 import com.anganwadi.app.ui.fragment.StructureTwoFragment
 import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_1
@@ -43,7 +44,7 @@ import retrofit2.Response
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
-    private var position = 0
+    private var position = 35
     private lateinit var questionsResponse: ResponseModel
     private var isUserAnsweredTheQuestion = false
 
@@ -51,31 +52,6 @@ class CognitiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCognitiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        val fragments= arrayListOf(
-//            CognitivieTaskFirstFragment(),
-//            CognitiveTaskSecondFragment(),
-//            CognitiveTaskThirdFragment(),
-//            CognitiveTaskForthFragment(),
-//            CognitiveTaskFifthFragment(),
-//            PhysicalDevelopmentTaskFirst1Fragment(),
-//            PhysicalDevelopmentTaskFirst2Fragment(),
-//            PhysicalDevelopmentTaskSecondFragment(),
-//            PhysicalDevelopmentTaskThirdFragment(),
-//            PhysicalDevelopmentTaskFourthFragment(),
-//            LanguageLiteracyTaskFirstFragment(),
-//            LanguageLiteracyTaskSecondAudioFragment(),
-//            LanguageLiteracyTaskSecondVisualFragment(),
-//            LanguageLiteracyTaskSecondOddFragment(),
-//            LanguageLiteracyTaskSecondIdentifyObjectFragment(),
-//            LanguageLiteracyTaskThirdLetterImageFragment(),
-//            LanguageLiteracyTaskThirdLetterFragment(),
-//            AestheticTaskFirstFragment(),
-//            AestheticTaskSecondFragment(),
-//        )
-//        if (savedInstanceState == null) {
-//            position = 1
-//            replaceFragment(fragments[0])
-//        }
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
                 if (!isUserAnsweredTheQuestion) {
@@ -149,6 +125,12 @@ class CognitiveActivity : AppCompatActivity() {
             }
             3 -> {
                 replaceFragment(StructureThreeFragment.newFragment(question))
+            }
+            4 -> {
+                replaceFragment(StructureFourFragment.newFragment(question))
+            }
+            8 -> {
+                replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))
             }
         }
     }

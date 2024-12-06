@@ -27,7 +27,8 @@ class StructureThreeFragment : MultipleOptionsBaseFragment() {
                 correctAnswer = it.correctAnswer[0]
             }
         }
-        binding.tvTitle.text = question.question?.questionText
+        binding.tvTitle.text =""
+        binding.tvTitleQuestion.text = question.question?.questionText
         setUpForStructure3()
         val totalOptions=question.question?.totalOptions
         setUpOptionsView(totalOptions)

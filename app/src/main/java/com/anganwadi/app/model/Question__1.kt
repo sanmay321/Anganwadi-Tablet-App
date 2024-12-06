@@ -20,6 +20,14 @@ class Question__1 : Parcelable {
     @Expose
     var questionText: String? = null
 
+    @SerializedName("questionSoundText")
+    @Expose
+    var questionSoundText: String? = null
+
+    @SerializedName("questionSound")
+    @Expose
+    var questionSound: String? = null
+
     @SerializedName("questionType")
     @Expose
     var questionType: String? = null

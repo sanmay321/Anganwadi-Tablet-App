@@ -127,6 +127,17 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
         binding.frQuestionImage.visibility = View.GONE
         binding.tvTitleQuestion.visibility = View.VISIBLE
     }
+    fun setUpForStructure4(isShowQuestionSound: Boolean) {
+        binding.frQuestionImage.visibility = View.GONE
+        binding.tvTitleQuestion.visibility = View.GONE
+        binding.llQuestion.visibility = View.GONE
+        binding.frImageClue.visibility = View.GONE
+        if(isShowQuestionSound){
+            binding.llSound.visibility = View.VISIBLE
+        }else{
+            binding.ivIconSound.visibility = View.VISIBLE
+        }
+    }
 
     fun setImageQuestion(image: String?) {
         Glide.with(requireActivity())
