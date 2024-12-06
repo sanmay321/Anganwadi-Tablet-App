@@ -44,7 +44,7 @@ import retrofit2.Response
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
-    private var position = 35
+    private var position = 0
     private lateinit var questionsResponse: ResponseModel
     private var isUserAnsweredTheQuestion = false
 
