@@ -122,8 +122,13 @@
             android:background="@drawable/background_rounded_border_green"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/flSkinAction">
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skin" />
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -141,12 +146,18 @@
             app:layout_constraintTop_toBottomOf="@id/flEarAction"
             app:layout_constraintBottom_toTopOf="@id/flEyesAction">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skin" />
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="8dp"
-                android:src="@drawable/ic_teddy_bear" />
+                android:src="@drawable/ic_music" />
         </FrameLayout>
 
         <FrameLayout
@@ -159,12 +170,18 @@
             app:layout_constraintTop_toBottomOf="@id/flSkinAction"
             app:layout_constraintBottom_toTopOf="@id/flNoseAction">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skin" />
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="8dp"
-                android:src="@drawable/ic_candle" />
+                android:src="@drawable/ic_music" />
         </FrameLayout>
 
         <FrameLayout
@@ -177,12 +194,18 @@
             app:layout_constraintTop_toBottomOf="@id/flEyesAction"
             app:layout_constraintBottom_toTopOf="@id/flTongueAction">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skin" />
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="8dp"
-                android:src="@drawable/ic_perfume" />
+                android:src="@drawable/ic_music" />
         </FrameLayout>
 
         <FrameLayout
@@ -195,12 +218,18 @@
             app:layout_constraintTop_toBottomOf="@id/flNoseAction"
             app:layout_constraintBottom_toBottomOf="parent">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skin" />
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="8dp"
-                android:src="@drawable/ic_ice_cream" />
+                android:src="@drawable/ic_music" />
         </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

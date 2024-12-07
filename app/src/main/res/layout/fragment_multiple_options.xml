@@ -79,112 +79,115 @@
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
             android:layout_weight="0.5"
-            android:background="@drawable/background_8_orange"
             android:paddingHorizontal="32dp"
             android:paddingVertical="16dp">
-
-            <LinearLayout
+            <ImageView
+                android:id="@+id/ivImageClue"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/background_8_orange"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp"
-                android:paddingHorizontal="32dp">
+                android:layout_height="match_parent"/>
 
-                <RelativeLayout
-                    android:id="@+id/shapeStar"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="4dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/background_8_orange"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="8dp"-->
+<!--                android:paddingHorizontal="32dp">-->
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_star" />
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/shapeStar"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginHorizontal="4dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"
-                        android:src="@drawable/ic_launcher_foreground"
-                        android:text="o"
-                        android:textColor="@color/black"
-                        android:textSize="24sp" />
-                </RelativeLayout>
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:src="@drawable/ic_star" />-->
 
-                <RelativeLayout
-                    android:id="@+id/shapeCircle"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="4dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:gravity="center"-->
+<!--                        android:src="@drawable/ic_launcher_foreground"-->
+<!--                        android:text="o"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="24sp" />-->
+<!--                </RelativeLayout>-->
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_circle" />
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/shapeCircle"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginHorizontal="4dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"
-                        android:text="="
-                        android:textColor="@color/black"
-                        android:textSize="24sp" />
-                </RelativeLayout>
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:src="@drawable/ic_circle" />-->
 
-                <RelativeLayout
-                    android:id="@+id/shapeSquare"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="4dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="="-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="24sp" />-->
+<!--                </RelativeLayout>-->
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_square" />
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/shapeSquare"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginHorizontal="4dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"
-                        android:text="+"
-                        android:textColor="@color/black"
-                        android:textSize="24sp" />
-                </RelativeLayout>
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:src="@drawable/ic_square" />-->
 
-                <RelativeLayout
-                    android:id="@+id/shapeTriangle"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="4dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="+"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="24sp" />-->
+<!--                </RelativeLayout>-->
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_triangle" />
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/shapeTriangle"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginHorizontal="4dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"
-                        android:text="-"
-                        android:textColor="@color/black"
-                        android:textSize="24sp" />
-                </RelativeLayout>
-            </LinearLayout>
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:src="@drawable/ic_triangle" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="-"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="24sp" />-->
+<!--                </RelativeLayout>-->
+<!--            </LinearLayout>-->
         </FrameLayout>
 
         <!-- Center Empty Square -->

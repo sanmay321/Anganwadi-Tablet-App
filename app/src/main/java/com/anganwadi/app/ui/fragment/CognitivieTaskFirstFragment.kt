@@ -32,8 +32,8 @@ class CognitivieTaskFirstFragment : MultipleOptionsBaseFragment() {
         if (ageRange == "3-4") {
             binding.btnThree.hideView()
             binding.btnFour.hideView()
-            binding.shapeSquare.hideView()
-            binding.shapeTriangle.hideView()
+//            binding.shapeSquare.hideView()
+//            binding.shapeTriangle.hideView()
             binding.iv.setImageDrawable(
                 ContextCompat.getDrawable(
                     requireActivity(),
@@ -48,7 +48,7 @@ class CognitivieTaskFirstFragment : MultipleOptionsBaseFragment() {
                 )
             )
             binding.btnThree.hideView()
-            binding.shapeTriangle.hideView()
+//            binding.shapeTriangle.hideView()
             val orientation = resources.configuration.orientation
             if (orientation == Configuration.ORIENTATION_PORTRAIT) {
                 setupPortraitLayout()

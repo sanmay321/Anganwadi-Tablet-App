@@ -118,7 +118,10 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
             binding.cl.layoutParams = layoutParams
         }
     }
-
+    fun setUpForStructure1() {
+        binding.frImageClue.visibility = View.VISIBLE
+        binding.frQuestionImage.visibility = View.VISIBLE
+    }
     fun setUpForStructure2() {
         binding.frImageClue.visibility = View.GONE
     }
@@ -164,6 +167,32 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
                 }
             })
             .into(binding.iv)
+    }
+    fun setImageClue(image: String?) {
+        Glide.with(requireActivity())
+            .load(image)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .listener(object : RequestListener<Drawable> {
+                override fun onLoadFailed(
+                    e: GlideException?,
+                    model: Any?,
+                    target: Target<Drawable>?,
+                    isFirstResource: Boolean
+                ): Boolean {
+                    return false
+                }
+
+                override fun onResourceReady(
+                    resource: Drawable?,
+                    model: Any?,
+                    target: Target<Drawable>?,
+                    dataSource: com.bumptech.glide.load.DataSource?,
+                    isFirstResource: Boolean
+                ): Boolean {
+                    return false
+                }
+            })
+            .into(binding.ivImageClue)
     }
 
     fun setImage(iv: ImageView, image: String?) {

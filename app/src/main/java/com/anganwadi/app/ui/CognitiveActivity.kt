@@ -30,6 +30,7 @@ import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskSecondFragment
 import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
 import com.anganwadi.app.ui.fragment.StructureFourFragment
+import com.anganwadi.app.ui.fragment.StructureOneFragment
 import com.anganwadi.app.ui.fragment.StructureThreeFragment
 import com.anganwadi.app.ui.fragment.StructureTwoFragment
 import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_1
@@ -44,7 +45,7 @@ import retrofit2.Response
 
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
-    private var position = 0
+    private var position = 20
     private lateinit var questionsResponse: ResponseModel
     private var isUserAnsweredTheQuestion = false
 
@@ -54,11 +55,11 @@ class CognitiveActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
-                if (!isUserAnsweredTheQuestion) {
-                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
-                        .show()
-                    return@setOnClickListener
-                }
+//                if (!isUserAnsweredTheQuestion) {
+//                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
+//                        .show()
+//                    return@setOnClickListener
+//                }
                 position++
                 if (position < questionsResponse.getQuestions().size) {
                     questionsResponse.getQuestions()[position].let {
@@ -79,10 +80,13 @@ class CognitiveActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         position--
+        Log.d("onBackPressed ", "--> ${supportFragmentManager.backStackEntryCount}")
+
         if (supportFragmentManager.backStackEntryCount > 1) {
             supportFragmentManager.popBackStack() // Go to the previous fragment
         } else {
             super.onBackPressed() // Exit the activity
+            finish()
         }
     }
 
@@ -99,7 +103,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-                    val question = questionsResponse.getQuestions().get(position)
+                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(5)
+                    val question = questionsResponse.getQuestions().get(positionIndex)
                     question.let {
                         showFragmentByType(it.question?.structure, it)
                     }
@@ -117,8 +122,8 @@ class CognitiveActivity : AppCompatActivity() {
         Log.d("showFragmentByType ", "--> ${structure}")
         isUserAnsweredTheQuestion = false
         when (structure) {
-            6 -> {
-                replaceFragment(AestheticTaskFirstFragment.newFragment(question))
+            1->{
+                replaceFragment(StructureOneFragment.newFragment(question))
             }
             2 -> {
                 replaceFragment(StructureTwoFragment.newFragment(question))
@@ -129,9 +134,19 @@ class CognitiveActivity : AppCompatActivity() {
             4 -> {
                 replaceFragment(StructureFourFragment.newFragment(question))
             }
+            5 -> {
+                replaceFragment(CognitiveTaskFifthFragment.newFragment(question))
+            }
+            6 -> {
+                replaceFragment(AestheticTaskFirstFragment.newFragment(question))
+            }
+            7 -> {
+                replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))
+            }
             8 -> {
                 replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))
             }
+
         }
     }
 

@@ -38,7 +38,7 @@ class Question__1 : Parcelable {
 
     @SerializedName("totalOptions")
     @Expose
-    var totalOptions: Int? = null
+    var totalOptions: Int = 0
 
     @SerializedName("option")
     @Expose
