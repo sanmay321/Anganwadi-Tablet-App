@@ -103,11 +103,12 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(5)
+                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(7)
                     val question = questionsResponse.getQuestions().get(positionIndex)
                     question.let {
                         showFragmentByType(it.question?.structure, it)
                     }
+                    position=positionIndex
                     binding.loadingIndicator.visibility= View.GONE
                     Log.d("user ", "--> ${questionsResponse.getQuestions()?.size}")
                 }
@@ -141,7 +142,7 @@ class CognitiveActivity : AppCompatActivity() {
                 replaceFragment(AestheticTaskFirstFragment.newFragment(question))
             }
             7 -> {
-                replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))
+                replaceFragment(PhysicalDevelopmentTaskSecondFragment.newFragment(question))
             }
             8 -> {
                 replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))

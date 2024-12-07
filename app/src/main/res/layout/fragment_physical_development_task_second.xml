@@ -17,16 +17,17 @@
         app:layout_constraintVertical_chainStyle="spread">
 
         <FrameLayout
-            android:id="@+id/flSkin"
+            android:id="@+id/flSense1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/background_rounded_border_green"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/flEyes">
+            app:layout_constraintBottom_toTopOf="@id/flSense2">
 
             <TextView
+                android:id="@+id/tvSense1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -34,16 +35,17 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flEyes"
+            android:id="@+id/flSense2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flSkin"
-            app:layout_constraintBottom_toTopOf="@id/flEar">
+            app:layout_constraintTop_toBottomOf="@id/flSense1"
+            app:layout_constraintBottom_toTopOf="@id/flSense3">
 
             <TextView
+                android:id="@+id/tvSense2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -51,16 +53,17 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flEar"
+            android:id="@+id/flSense3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flEyes"
-            app:layout_constraintBottom_toTopOf="@id/flNose">
+            app:layout_constraintTop_toBottomOf="@id/flSense2"
+            app:layout_constraintBottom_toTopOf="@id/flSense4">
 
             <TextView
+                android:id="@+id/tvSense3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -68,16 +71,17 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flNose"
+            android:id="@+id/flSense4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flEar"
-            app:layout_constraintBottom_toTopOf="@id/flTongue">
+            app:layout_constraintTop_toBottomOf="@id/flSense3"
+            app:layout_constraintBottom_toTopOf="@id/flSense5">
 
             <TextView
+                android:id="@+id/tvSense4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -85,16 +89,17 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flTongue"
+            android:id="@+id/flSense5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flNose"
+            app:layout_constraintTop_toBottomOf="@id/flSense4"
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/tvSense5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -114,21 +119,22 @@
         app:layout_constraintVertical_chainStyle="spread">
 
         <FrameLayout
-            android:id="@+id/flEarAction"
+            android:id="@+id/flAction1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/background_rounded_border_green"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/flSkinAction">
+            app:layout_constraintBottom_toTopOf="@id/flAction2">
             <TextView
+                android:id="@+id/tvAction1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Skin" />
+                />
             <ImageView
-                android:visibility="gone"
+                android:id="@+id/ivAction1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -137,22 +143,22 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flSkinAction"
+            android:id="@+id/flAction2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flEarAction"
-            app:layout_constraintBottom_toTopOf="@id/flEyesAction">
+            app:layout_constraintTop_toBottomOf="@id/flAction1"
+            app:layout_constraintBottom_toTopOf="@id/flAction3">
 
             <TextView
+                android:id="@+id/tvAction2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Skin" />
+                android:layout_gravity="center" />
             <ImageView
-                android:visibility="gone"
+                android:id="@+id/ivAction2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -161,22 +167,22 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flEyesAction"
+            android:id="@+id/flAction3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flSkinAction"
-            app:layout_constraintBottom_toTopOf="@id/flNoseAction">
+            app:layout_constraintTop_toBottomOf="@id/flAction2"
+            app:layout_constraintBottom_toTopOf="@id/flAction4">
 
             <TextView
+                android:id="@+id/tvAction3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Skin" />
+                android:layout_gravity="center" />
             <ImageView
-                android:visibility="gone"
+                android:id="@+id/ivAction3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -185,22 +191,22 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flNoseAction"
+            android:id="@+id/flAction4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flEyesAction"
-            app:layout_constraintBottom_toTopOf="@id/flTongueAction">
+            app:layout_constraintTop_toBottomOf="@id/flAction3"
+            app:layout_constraintBottom_toTopOf="@id/flAction5">
 
             <TextView
+                android:id="@+id/tvAction4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Skin" />
+                android:layout_gravity="center" />
             <ImageView
-                android:visibility="gone"
+                android:id="@+id/ivAction4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -209,22 +215,22 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/flTongueAction"
+            android:id="@+id/flAction5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/background_rounded_border_green"
-            app:layout_constraintTop_toBottomOf="@id/flNoseAction"
+            app:layout_constraintTop_toBottomOf="@id/flAction4"
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/tvAction5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Skin" />
+                android:layout_gravity="center" />
             <ImageView
-                android:visibility="gone"
+                android:id="@+id/ivAction5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
