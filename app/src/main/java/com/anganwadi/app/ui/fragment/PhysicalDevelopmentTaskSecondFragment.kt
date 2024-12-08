@@ -137,8 +137,6 @@ class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
                                 sense.background = it
                                 action.background = it
                             }
-                            (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
-
                         } else {
                             sense.background = ContextCompat.getDrawable(
                                 requireContext(),
