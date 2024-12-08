@@ -67,7 +67,7 @@ class CognitiveActivity : AppCompatActivity() {
 //                        showFragmentByType(it.question?.structure, it)
 //                    }
 //                }
-                while(questionsResponse.getQuestions()[position].question?.structure == prevStructure)position++
+//                while(  questionsResponse.getQuestions()[position].question?.structure == prevStructure) position++
                 questionsResponse.getQuestions()[position].let {
                     val str = it.question?.structure
                     if (str != null) {
@@ -117,7 +117,7 @@ class CognitiveActivity : AppCompatActivity() {
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
-                        prevStructure= it.question?.structure!!
+//                        prevStructure= it.question?.structure!!
                     }
                     position=positionIndex
                     binding.loadingIndicator.visibility= View.GONE
