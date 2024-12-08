@@ -101,8 +101,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(7)
-                    val positionIndex =0
+                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(2)
+//                    val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)

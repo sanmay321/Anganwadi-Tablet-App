@@ -62,6 +62,12 @@ class AestheticTaskFirstFragment : Fragment() {
                 Log.d("question ", "--> ${it.correctAnswer[0]}")
             }
         }
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
         binding.tvTitle.text = question.question?.questionText
         Glide.with(requireActivity())
             .load(question.question?.questionImage?.after)

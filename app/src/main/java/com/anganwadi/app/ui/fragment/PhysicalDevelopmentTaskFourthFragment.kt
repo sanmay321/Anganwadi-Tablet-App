@@ -42,6 +42,12 @@ class PhysicalDevelopmentTaskFourthFragment: BaseFragment() {
         binding.iv.setImageResource(R.drawable.ic_circle_image)
         binding.tvTitle.text=question.question?.questionText
         setImage(binding.iv, question.question?.questionImage?.after)
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
     }
 
     override fun onDestroyView() {

@@ -46,6 +46,12 @@ class CognitiveTaskFifthFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
         fun addToList(image: String?){
             if(!image.isNullOrEmpty()){
                 imageItems.add(ImageModel(imageItems.size, imageUrl =image))

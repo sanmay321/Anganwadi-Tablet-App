@@ -33,5 +33,11 @@ class StructureThreeFragment : MultipleOptionsBaseFragment() {
         val totalOptions=question.question?.totalOptions
         setUpOptionsView(totalOptions)
         setUpOptionsImage()
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
     }
 }
