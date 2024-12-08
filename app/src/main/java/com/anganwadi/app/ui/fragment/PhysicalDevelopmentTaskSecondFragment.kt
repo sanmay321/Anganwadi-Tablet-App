@@ -11,6 +11,7 @@ import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentPhysicalDevelopmentTaskSecondBinding
 import com.anganwadi.app.model.Question
+import com.anganwadi.app.ui.CognitiveActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import kotlinx.coroutines.CoroutineScope
@@ -82,6 +83,12 @@ class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
         val senses = listOf(
             binding.flSense1,
             binding.flSense2,
@@ -130,6 +137,7 @@ class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
                                 sense.background = it
                                 action.background = it
                             }
+                            (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
 
                         } else {
                             sense.background = ContextCompat.getDrawable(

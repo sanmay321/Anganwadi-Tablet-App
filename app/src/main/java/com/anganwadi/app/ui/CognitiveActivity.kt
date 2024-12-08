@@ -55,11 +55,11 @@ class CognitiveActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
-//                if (!isUserAnsweredTheQuestion) {
-//                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
-//                        .show()
-//                    return@setOnClickListener
-//                }
+                if (!isUserAnsweredTheQuestion) {
+                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
+                        .show()
+                    return@setOnClickListener
+                }
                 position++
                 if (position < questionsResponse.getQuestions().size) {
                     questionsResponse.getQuestions()[position].let {
@@ -104,13 +104,13 @@ class CognitiveActivity : AppCompatActivity() {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
                     val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(7)
-                    val question = questionsResponse.getQuestions().get(positionIndex)
+//                    val positionIndex =0
+                    val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
                     }
                     position=positionIndex
                     binding.loadingIndicator.visibility= View.GONE
-                    Log.d("user ", "--> ${questionsResponse.getQuestions()?.size}")
                 }
             }
 

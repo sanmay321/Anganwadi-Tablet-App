@@ -16,6 +16,7 @@ import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentCognitiveTaskFifthBinding
 import com.anganwadi.app.model.ImageModel
 import com.anganwadi.app.model.Question
+import com.anganwadi.app.ui.CognitiveActivity
 
 class CognitiveTaskFifthFragment : BaseFragment() {
     private var _binding: FragmentCognitiveTaskFifthBinding? = null
@@ -96,6 +97,8 @@ class CognitiveTaskFifthFragment : BaseFragment() {
                     adapter.addItem(imageItems[index])
                     val masterAdapter = binding.recyclerViewItems.adapter as ImageItemAdapter
                     masterAdapter.removeItem(imageItems[index])
+                    (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+
                     true
                 }
 
