@@ -1,13 +1,11 @@
 package com.anganwadi.app.ui.fragment
 
 import android.content.res.Configuration
-import android.media.Image
 import android.os.Bundle
 import android.view.DragEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -15,20 +13,21 @@ import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.DraggableItemAdapter
 import com.anganwadi.app.ImageItemAdapter
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentCognitiveTaskSecondBinding
+import com.anganwadi.app.databinding.FragmentStructureFiveBinding
 import com.anganwadi.app.model.ImageModel
 import com.anganwadi.app.model.Question
+import com.anganwadi.app.ui.CognitiveActivity
 
-class CognitiveTaskSecondFragment : BaseFragment() {
-    private var _binding: FragmentCognitiveTaskSecondBinding? = null
+class StructureFiveFragment : BaseFragment() {
+    private var _binding: FragmentStructureFiveBinding? = null
     private val binding get() = _binding!!
     private var imageItems: ArrayList<ImageModel> = ArrayList()
     lateinit var question: Question
 
     companion object {
         const val TAG = "tag"
-        fun newFragment(question: Question): CognitiveTaskSecondFragment {
-            return CognitiveTaskSecondFragment().apply {
+        fun newFragment(question: Question): StructureFiveFragment {
+            return StructureFiveFragment().apply {
                 val bundle = Bundle()
                 bundle.putParcelable(TAG, question)
                 arguments = bundle
@@ -40,18 +39,26 @@ class CognitiveTaskSecondFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentCognitiveTaskSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentStructureFiveBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        question = arguments?.getParcelable(StructureSixFragment.TAG) ?: Question()
+        val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
+        if(isDemo){
+            binding.tvDemo.visibility=View.VISIBLE
+        }else{
+            binding.tvDemo.visibility=View.GONE
+        }
         fun addToList(image: String?){
             if(!image.isNullOrEmpty()){
-                imageItems.add(ImageModel(imageItems.size, imageUrl =image?:""))
+                imageItems.add(ImageModel(imageItems.size, imageUrl =image))
             }
         }
+        binding.tvTitle.text=question.question?.questionText
+        imageItems.clear()
         question.question?.option?.let {
             addToList(it.o1)
             addToList(it.o2)
@@ -65,9 +72,9 @@ class CognitiveTaskSecondFragment : BaseFragment() {
             addToList(it.o10)
         }
 
-        val orientation = resources.configuration.orientation
-        pageForMax5()
 
+        val orientation = resources.configuration.orientation
+        page1()
 
         binding.recyclerViewItems.adapter = ImageItemAdapter(
             requireContext(),
@@ -77,14 +84,10 @@ class CognitiveTaskSecondFragment : BaseFragment() {
 
         binding.recyclerDropped1.adapter = DraggableItemAdapter(requireContext(),arrayListOf(), orientation == Configuration.ORIENTATION_PORTRAIT)
         binding.recyclerDropped2.adapter = DraggableItemAdapter(requireContext(),arrayListOf(), orientation == Configuration.ORIENTATION_PORTRAIT)
-        binding.recyclerDropped3.adapter = DraggableItemAdapter(requireContext(),arrayListOf(), orientation == Configuration.ORIENTATION_PORTRAIT)
-        binding.recyclerDropped4.adapter = DraggableItemAdapter(requireContext(),arrayListOf(), orientation == Configuration.ORIENTATION_PORTRAIT)
 
 
         setDropTarget(binding.rlDropped1, binding.recyclerDropped1)
         setDropTarget(binding.rlDropped2, binding.recyclerDropped2)
-        setDropTarget(binding.rlDropped3, binding.recyclerDropped3)
-        setDropTarget(binding.rlDropped4, binding.recyclerDropped4)
     }
 
     private fun setDropTarget(dropTarget: RelativeLayout, rvDropTarget: RecyclerView) {
@@ -100,6 +103,8 @@ class CognitiveTaskSecondFragment : BaseFragment() {
                     adapter.addItem(imageItems[index])
                     val masterAdapter = binding.recyclerViewItems.adapter as ImageItemAdapter
                     masterAdapter.removeItem(imageItems[index])
+                    (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+
                     true
                 }
 
@@ -109,9 +114,11 @@ class CognitiveTaskSecondFragment : BaseFragment() {
         }
     }
 
-    private fun pageForMax4() {
-        binding.rlDropped3.hideView()
-        binding.rlDropped4.hideView()
+    private fun page1() {
+        var itemRow = (question.question?.totalOptions?:0)/2
+        if(itemRow==0){
+            itemRow=5
+        }
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             binding.recyclerDropped1.layoutManager =
@@ -120,68 +127,33 @@ class CognitiveTaskSecondFragment : BaseFragment() {
                 GridLayoutManager(requireActivity(), 3)
 
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 2)
+                GridLayoutManager(requireActivity(), 3)
         } else {
             binding.recyclerDropped1.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
             binding.recyclerDropped2.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 3)
+                GridLayoutManager(requireActivity(), itemRow)
         }
     }
-    private fun pageForMax5() {
-
-        binding.rlDropped4.hideView()
+    private fun page2() {
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             binding.recyclerDropped1.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
             binding.recyclerDropped2.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
-            binding.recyclerDropped3.layoutManager =
-                GridLayoutManager(requireActivity(), 5)
 
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 2)
+                GridLayoutManager(requireActivity(), 3)
         } else {
             binding.recyclerDropped1.layoutManager =
                 GridLayoutManager(requireActivity(), 4)
             binding.recyclerDropped2.layoutManager =
                 GridLayoutManager(requireActivity(), 4)
-            binding.recyclerDropped3.layoutManager =
-                GridLayoutManager(requireActivity(), 4)
             binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 7)
+                GridLayoutManager(requireActivity(), 5)
         }
-    }
-    private fun pageForMax6() {
-
-        val orientation = resources.configuration.orientation
-        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-            binding.recyclerDropped1.layoutManager =
-                GridLayoutManager(requireActivity(), 5)
-            binding.recyclerDropped2.layoutManager =
-                GridLayoutManager(requireActivity(), 5)
-            binding.recyclerDropped3.layoutManager =
-                GridLayoutManager(requireActivity(), 5)
-            binding.recyclerDropped4.layoutManager =
-                GridLayoutManager(requireActivity(), 5)
-
-            binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 2)
-        } else {
-            binding.recyclerDropped1.layoutManager =
-                GridLayoutManager(requireActivity(), 6)
-            binding.recyclerDropped2.layoutManager =
-                GridLayoutManager(requireActivity(), 6)
-            binding.recyclerDropped3.layoutManager =
-                GridLayoutManager(requireActivity(), 6)
-            binding.recyclerDropped4.layoutManager =
-                GridLayoutManager(requireActivity(), 6)
-            binding.recyclerViewItems.layoutManager =
-                GridLayoutManager(requireActivity(), 8)
-        }
-
     }
 }

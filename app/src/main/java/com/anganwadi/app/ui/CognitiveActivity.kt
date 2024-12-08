@@ -10,31 +10,14 @@ import com.anganwadi.app.databinding.ActivityCognitiveBinding
 import com.anganwadi.app.model.Question
 import com.anganwadi.app.model.ResponseModel
 import com.anganwadi.app.network.RetrofitClient
-import com.anganwadi.app.ui.fragment.AestheticTaskFirstFragment
-import com.anganwadi.app.ui.fragment.AestheticTaskSecondFragment
-import com.anganwadi.app.ui.fragment.CognitiveTaskFifthFragment
-import com.anganwadi.app.ui.fragment.CognitiveTaskForthFragment
-import com.anganwadi.app.ui.fragment.CognitiveTaskSecondFragment
-import com.anganwadi.app.ui.fragment.CognitiveTaskThirdFragment
-import com.anganwadi.app.ui.fragment.CognitivieTaskFirstFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskFirstFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondAudioFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondIdentifyObjectFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondOddFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskSecondVisualFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskThirdLetterFragment
-import com.anganwadi.app.ui.fragment.LanguageLiteracyTaskThirdLetterImageFragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst1Fragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFirst2Fragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskFourthFragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskSecondFragment
-import com.anganwadi.app.ui.fragment.PhysicalDevelopmentTaskThirdFragment
+import com.anganwadi.app.ui.fragment.StructureSixFragment
+import com.anganwadi.app.ui.fragment.StructureFiveFragment
+import com.anganwadi.app.ui.fragment.StructureEightFragment
+import com.anganwadi.app.ui.fragment.StructureSevenFragment
 import com.anganwadi.app.ui.fragment.StructureFourFragment
 import com.anganwadi.app.ui.fragment.StructureOneFragment
 import com.anganwadi.app.ui.fragment.StructureThreeFragment
 import com.anganwadi.app.ui.fragment.StructureTwoFragment
-import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_1
-import com.anganwadi.app.util.Constant.Companion.COGNITIVE_DOMAIN_TASK_3
 import com.anganwadi.app.util.SessionManager
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody.Companion.toRequestBody
@@ -101,8 +84,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(2)
-//                    val positionIndex =0
+//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(8)
+                    val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
@@ -134,16 +117,16 @@ class CognitiveActivity : AppCompatActivity() {
                 replaceFragment(StructureFourFragment.newFragment(question))
             }
             5 -> {
-                replaceFragment(CognitiveTaskFifthFragment.newFragment(question))
+                replaceFragment(StructureFiveFragment.newFragment(question))
             }
             6 -> {
-                replaceFragment(AestheticTaskFirstFragment.newFragment(question))
+                replaceFragment(StructureSixFragment.newFragment(question))
             }
             7 -> {
-                replaceFragment(PhysicalDevelopmentTaskSecondFragment.newFragment(question))
+                replaceFragment(StructureSevenFragment.newFragment(question))
             }
             8 -> {
-                replaceFragment(PhysicalDevelopmentTaskFourthFragment.newFragment(question))
+                replaceFragment(StructureEightFragment.newFragment(question))
             }
 
         }

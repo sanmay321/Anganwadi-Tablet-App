@@ -9,9 +9,8 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.FragmentPhysicalDevelopmentTaskSecondBinding
+import com.anganwadi.app.databinding.FragmentStructureSevenBinding
 import com.anganwadi.app.model.Question
-import com.anganwadi.app.ui.CognitiveActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import kotlinx.coroutines.CoroutineScope
@@ -20,8 +19,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 data class Item(val valName: String, var src: Int = 0)
-class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
-    private var _binding: FragmentPhysicalDevelopmentTaskSecondBinding? = null
+class StructureSevenFragment : BaseFragment() {
+    private var _binding: FragmentStructureSevenBinding? = null
     private val binding get() = _binding!!
     private var selectedSense: View? = null
     private var listTrueConnection: ArrayList<String> = ArrayList()
@@ -29,8 +28,8 @@ class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
 
     companion object {
         const val TAG = "tag"
-        fun newFragment(question: Question): PhysicalDevelopmentTaskSecondFragment {
-            return PhysicalDevelopmentTaskSecondFragment().apply {
+        fun newFragment(question: Question): StructureSevenFragment {
+            return StructureSevenFragment().apply {
                 val bundle = Bundle()
                 bundle.putParcelable(TAG, question)
                 arguments = bundle
@@ -76,13 +75,13 @@ class PhysicalDevelopmentTaskSecondFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentPhysicalDevelopmentTaskSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentStructureSevenBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        question = arguments?.getParcelable(StructureSixFragment.TAG) ?: Question()
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
         if(isDemo){
             binding.tvDemo.visibility=View.VISIBLE

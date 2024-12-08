@@ -2,41 +2,36 @@ package com.anganwadi.app.ui.fragment
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.anganwadi.app.R
-import com.anganwadi.app.databinding.ActivityAestheticTaskFirstBinding
+import com.anganwadi.app.databinding.FragmentStructureSixBinding
 import com.anganwadi.app.model.Question
-import com.anganwadi.app.model.Question__1
 import com.anganwadi.app.ui.CognitiveActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.GlideException
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
-import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class AestheticTaskFirstFragment : Fragment() {
-    private var _binding: ActivityAestheticTaskFirstBinding? = null
+class StructureSixFragment : Fragment() {
+    private var _binding: FragmentStructureSixBinding? = null
     private val binding get() = _binding!!
     private lateinit var question: Question
     private var correctAnswer: String=""
 
     companion object {
         const val TAG = "tag"
-        fun newFragment(question: Question): AestheticTaskFirstFragment {
-            return AestheticTaskFirstFragment().apply {
+        fun newFragment(question: Question): StructureSixFragment {
+            return StructureSixFragment().apply {
                 val bundle = Bundle()
                 bundle.putParcelable(TAG, question)
                 arguments = bundle
@@ -49,7 +44,7 @@ class AestheticTaskFirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = ActivityAestheticTaskFirstBinding.inflate(inflater, container, false)
+        _binding = FragmentStructureSixBinding.inflate(inflater, container, false)
         return binding.root
     }
 

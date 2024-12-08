@@ -21,7 +21,7 @@ class StructureOneFragment : MultipleOptionsBaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        question = arguments?.getParcelable(StructureSixFragment.TAG) ?: Question()
         question.question?.let {
             if (it.correctAnswer.isNotEmpty()) {
                 correctAnswer = it.correctAnswer[0]
