@@ -10,6 +10,9 @@ material = "1.12.0"
 viewModelVersion = "2.8.6"
 koinVersion = "3.4.3"
 firebaseDbVersion = "21.0.0"
+okhttp3Version = "4.12.0"
+retrofitVersion="2.9.0"
+glideVersion="4.14.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -21,7 +24,12 @@ material = { group = "com.google.android.material", name = "material", version.r
 viewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewModelVersion" }
 koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koinVersion" }
 firebaseDatabase = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDbVersion" }
-
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3Version" }
+okhttpLogger = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3Version" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofitGson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glideVersion" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glideVersion" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

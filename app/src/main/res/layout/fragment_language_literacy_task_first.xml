@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_animal_1" />
+
+    <!-- Image and Navigation Buttons -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white_50"
+        android:padding="8dp">
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvHint"
+            android:text="खरगोश और कछुए की अनोखी कहानी!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@drawable/backgound_8_navy"
+            android:src="@drawable/ic_arrow_left_24" />
+
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/backgound_8_navy"
+            android:src="@drawable/ic_arrow_right_24" />
+        <LinearLayout
+            android:id="@+id/llInitRecord"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/ic_mic_24"
+                android:id="@+id/btn_record"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tap to Record"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rlRecording"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:layout_toLeftOf="@+id/ivPause"
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="00:00"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_pause_circle_outline_24"
+                android:id="@+id/ivPause"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <ImageView
+                android:layout_marginStart="24dp"
+                android:layout_toRightOf="@+id/ivPause"
+                android:id="@+id/iv_sound_animation"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_sound_wave"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlSubmit"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/tvRetry"
+                android:layout_toLeftOf="@+id/ivPlay"
+                android:layout_centerVertical="true"
+                android:text="Retry"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/backgound_8__border_navy"
+                android:layout_marginEnd="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_play_circle_outline_24"
+                android:id="@+id/ivPlay"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:text="Submit"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/backgound_8_navy"
+                android:layout_marginStart="16dp"
+                android:layout_toRightOf="@+id/ivPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

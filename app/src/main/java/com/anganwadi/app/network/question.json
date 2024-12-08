@@ -1,0 +1,2326 @@
+{
+  "message": "Success",
+  "questions": [
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/eac137b3-052b-406d-8e5a-63164a2d0f57/"
+        },
+        "structure": 6,
+        "questionText": "अंडा कहाँ  हैं ? पता लगाओ। ",
+        "questionType": "single",
+        "answerImage": "https://ucarecdn.com/93ef3889-454c-4161-8cd0-2b53ff035f11/",
+        "totalOptions": 4,
+        "option": {
+          "active": "https://ucarecdn.com/91adba5d-9a08-4145-a512-62dbe4af6970/",
+          "inactive": "https://ucarecdn.com/a580dcc2-9162-466a-a081-02d150f43a5b/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730e2c797894cf49846f6b1",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672f636ca2b39499af368eb4",
+        "categoryName": "Task 01: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/c46f05fe-c794-465a-9802-cd6e7729ce98/"
+        },
+        "structure": 6,
+        "questionText": "अंडा कहाँ  हैं ? पता लगाओ। ",
+        "questionType": "single",
+        "answerImage": "https://ucarecdn.com/fe0aee9c-013e-451b-9cab-858974d72491/",
+        "totalOptions": 4,
+        "option": {
+          "active": "https://ucarecdn.com/60b9fd3f-1753-4461-b46e-3bbdab32ca7b/",
+          "inactive": "https://ucarecdn.com/be8289d2-0850-4468-9c4c-2a705240bcda/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6728c2c765e445049c7c0776",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "671f768b45bae38e043255be",
+        "categoryName": "Task 01: Aesthetic Domain - Egg Farm Task (2D Ratio Reasoning)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/7091c072-db7e-4fbd-84e5-b79a84b9225a/"
+        },
+        "structure": 6,
+        "questionText": "अंडा कहाँ  हैं ? पता लगाओ। ",
+        "questionType": "single",
+        "answerImage": "https://ucarecdn.com/a0748a52-0186-462f-89f4-bcf9367a24a1/",
+        "totalOptions": 4,
+        "option": {
+          "active": "https://ucarecdn.com/b73e31f1-5054-4431-bb52-d30a98af5016/",
+          "inactive": "https://ucarecdn.com/f83cba37-bd9c-4428-90b9-ea8a2ded894a/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6728c3c065e445049c7c0778",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "671f768b45bae38e043255be",
+        "categoryName": "Task 01: Aesthetic Domain - Egg Farm Task (2D Ratio Reasoning)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/a212e37d-b052-4d0e-9d51-b4893f5e74f4/"
+        },
+        "structure": 6,
+        "questionText": "अंडा कहाँ  हैं ? पता लगाओ। ",
+        "questionType": "single",
+        "answerImage": "https://ucarecdn.com/03c8989a-3d1f-4f51-8f68-5b69a7632c1e/",
+        "totalOptions": 4,
+        "option": {
+          "active": "https://ucarecdn.com/b067a239-e773-4b92-b8ad-0997b6cdaf91/",
+          "inactive": "https://ucarecdn.com/032266e9-112f-4b34-9374-666b48920b31/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "6729da4e0406ef195278b8cc",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "671f768b45bae38e043255be",
+        "categoryName": "Task 01: Aesthetic Domain - Egg Farm Task (2D Ratio Reasoning)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/b3a8b293-bcf0-45f6-a1fe-099825bcb0e6/"
+        },
+        "structure": 6,
+        "questionText": "अंडा कहाँ  हैं ? पता लगाओ। ",
+        "questionType": "single",
+        "answerImage": "https://ucarecdn.com/046ec4a7-dc7e-4b6b-872e-5eab4b6d83d5/",
+        "totalOptions": 4,
+        "option": {
+          "active": "https://ucarecdn.com/17727bfb-c943-4d7a-8d8e-9aefe3a6f34c/",
+          "inactive": "https://ucarecdn.com/d5571d21-04b1-47a9-a195-2f507b922314/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672c6f03a2032ade12fd8b66",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "671f768b45bae38e043255be",
+        "categoryName": "Task 01: Aesthetic Domain - Egg Farm Task (2D Ratio Reasoning)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/74d878c3-a2be-44fd-a43c-8163891966e4/"
+        },
+        "structure": 2,
+        "questionText": "ये  किसका चित्र है?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/497fe394-e1a5-4fe2-a37d-b26df3f7088f/",
+          "o2": "https://ucarecdn.com/57bac346-e127-4b07-8770-54a45c7b3415/",
+          "o3": "https://ucarecdn.com/9108b225-4c48-4a1b-904d-2c40f917eb69/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e53897894cf49846f6c6",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bb8f1018b73b9063b287",
+        "categoryName": "Task 02A: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/1ea746a3-a927-4883-8d77-d2dc58dbd5d7/"
+        },
+        "structure": 2,
+        "questionText": "ये  किसका चित्र है?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/e3a30b58-d3bb-464f-8392-0ce3457f6595/",
+          "o2": "https://ucarecdn.com/70d68a63-e44b-4327-9330-608db6ced371/",
+          "o3": "https://ucarecdn.com/aa6d297b-e57c-4f09-9150-96277af7031b/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e56397894cf49846f6c8",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d55c3ae29c44e7450894",
+        "categoryName": "Task 02A: Aesthetic Domain - Pattern Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/d7aeb4d5-444c-4f3a-9d76-e505bec65029/"
+        },
+        "structure": 2,
+        "questionText": "ये  किसका चित्र है?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/ef8f1485-3bc3-457c-9438-ab2ee3676fd5/",
+          "o2": "https://ucarecdn.com/358abc09-e9c6-45a9-8cd1-c90c3a0d87e5/",
+          "o3": "https://ucarecdn.com/20da74fc-bc56-4984-bfcb-b308226d3034/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730e58897894cf49846f6ca",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d55c3ae29c44e7450894",
+        "categoryName": "Task 02A: Aesthetic Domain - Pattern Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/269bd3e1-9d28-4c37-a9c0-09369c2bd54c/"
+        },
+        "structure": 2,
+        "questionText": "ये  किसका चित्र है?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/220cc023-0b23-4819-84de-74cb2df96b51/",
+          "o2": "https://ucarecdn.com/fcb4dee2-7f52-443c-90a1-b862d32451ab/",
+          "o3": "https://ucarecdn.com/8bf16ef8-01e5-4759-b8a6-5d238a2bb7c6/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730e5ae97894cf49846f6cc",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d55c3ae29c44e7450894",
+        "categoryName": "Task 02A: Aesthetic Domain - Pattern Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/0e367f88-3dd3-4dcf-9134-333953449bbb/"
+        },
+        "structure": 2,
+        "questionText": "ये किसकी परछाई हैं ?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/64bcd1dd-8844-4734-a009-29a9725f8d74/",
+          "o2": "https://ucarecdn.com/ffc14bb4-ceb1-47c1-842c-bde5ad8166a7/",
+          "o3": "https://ucarecdn.com/1ee15025-ef7c-4fb4-9029-980c406358fd/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e61097894cf49846f6d0",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bbd41018b73b9063b28d",
+        "categoryName": "Task 02B: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/c89418e6-8dbb-40b4-b6f6-02365fa9e222/"
+        },
+        "structure": 2,
+        "questionText": "ये किसकी परछाई हैं ?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/12221e1d-a695-4005-8311-ebf0bedacac7/",
+          "o2": "https://ucarecdn.com/51101e15-13c8-497a-8ef9-3ce4dc5f2ea6/",
+          "o3": "https://ucarecdn.com/2f9a7ed6-37aa-4362-8297-ae02d6188d87/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e66197894cf49846f6d2",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bc161018b73b9063b292",
+        "categoryName": "Task 02B: Aesthetic Domain - Shadow Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/3a9f95c6-f92d-464a-bdad-7df85f79ad84/"
+        },
+        "structure": 2,
+        "questionText": "ये किसकी परछाई हैं ?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/5a0fba6e-f760-4139-a351-dbb570b295de/",
+          "o2": "https://ucarecdn.com/e947bc56-c1c1-4860-934f-b3507982f026/",
+          "o3": "https://ucarecdn.com/b7ca4770-d8c3-4062-80c5-1d481670800d/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730e68497894cf49846f6d4",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bc161018b73b9063b292",
+        "categoryName": "Task 02B: Aesthetic Domain - Shadow Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/e5639877-6a57-40de-b447-d61f45f2a876/"
+        },
+        "structure": 2,
+        "questionText": "ये किसकी परछाई हैं ?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/9529eb0f-7e13-4fbd-858f-f3d1c6687430/",
+          "o2": "https://ucarecdn.com/8fed618b-20da-46d8-a09e-768887f4c730/",
+          "o3": "https://ucarecdn.com/88743b00-1695-4d7b-9761-d796144d7059/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730e6a797894cf49846f6d6",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bc161018b73b9063b292",
+        "categoryName": "Task 02B: Aesthetic Domain - Shadow Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/f0064f9c-98bc-4e69-9f45-b01c950a7912/"
+        },
+        "structure": 2,
+        "questionText": "सही घर चुनो।",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/28de3401-9011-402e-8780-5dbba2652990/",
+          "o2": "https://ucarecdn.com/8ea2ed33-9681-4ed0-9eae-c963013d06a3/",
+          "o3": "https://ucarecdn.com/0653b341-f142-4558-a3b9-abbb89dc7e5e/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730e78897894cf49846f6e1",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731bbe51018b73b9063b28f",
+        "categoryName": "Task 02C: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/55e69d65-9773-4220-9928-cdd3db48ea94/"
+        },
+        "structure": 2,
+        "questionText": "सही घर चुनो।",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/445f9351-fe05-420e-9622-cc0d212d88a1/",
+          "o2": "https://ucarecdn.com/a3710819-9f39-4347-bf8b-c0036e6b8c88/",
+          "o3": "https://ucarecdn.com/2d790920-90f1-4225-90c3-4f51015f28dc/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730e7ab97894cf49846f6e3",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731c1841018b73b9063b295",
+        "categoryName": "Task 02C: Aesthetic Domain - Habitat Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/fb159791-2216-4f89-aa06-1a49363c248d/"
+        },
+        "structure": 2,
+        "questionText": "सही घर चुनो।",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/0f82a572-f459-43e1-b73a-fea2a8e39280/",
+          "o2": "https://ucarecdn.com/e709e38b-6540-49a1-9a31-47846f9a6c7a/",
+          "o3": "https://ucarecdn.com/f40f324e-a8b0-49d3-a7a6-9166b38c0935/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e7ca97894cf49846f6e5",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731c1841018b73b9063b295",
+        "categoryName": "Task 02C: Aesthetic Domain - Habitat Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/83de4fe4-0556-4a24-8141-afa16b6d71e4/"
+        },
+        "structure": 2,
+        "questionText": "सही घर चुनो।",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/f4084dc1-f7ed-4395-9874-44bcc6498652/",
+          "o2": "https://ucarecdn.com/a505f279-530d-4343-967f-e036ba48c0ea/",
+          "o3": "https://ucarecdn.com/94c609dc-77f7-4d0a-8eab-205edf34854e/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730e7eb97894cf49846f6e7",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731c1841018b73b9063b295",
+        "categoryName": "Task 02C: Aesthetic Domain - Habitat Activities (Animals)"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/0629f280-e19f-4235-9d7b-0c2f7ee0986a/"
+        },
+        "structure": 2,
+        "questionText": "आपका मित्र दुखी है और खेलना नहीं चाहता, आप क्या करेंगे?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/a7e1488c-8031-4df4-91c1-2bbcebf01935/",
+          "o2": "https://ucarecdn.com/96be1ccd-2a58-45de-a810-a38e73550f63/",
+          "o3": "https://ucarecdn.com/d147374b-aa1d-4bae-ba09-fdf03c79c5ed/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730eda397894cf49846f6f7",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730e9da97894cf49846f6f0",
+        "categoryName": "Task 03: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/e74bb7d1-ac78-4250-ab29-725e9c6b9d36/"
+        },
+        "structure": 2,
+        "questionText": "आपकी कक्षा में नया बच्चा आता हैं तो आप उसका स्वागत कैसे करोगे?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/901ad2b3-fdc5-422c-9e31-ab5f81c6a644/",
+          "o2": "https://ucarecdn.com/1aecab3e-4d63-4825-9e30-36043277720e/",
+          "o3": "https://ucarecdn.com/92337c6b-68bc-420e-b319-741afcd9dde8/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o2"
+        ]
+      },
+      "_id": "673a239a665143842c183dfd",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d6893ae29c44e7450897",
+        "categoryName": "Task 03: Social Domain - What will you do?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/9434d08c-0540-4d62-b3cf-6fe60f283fe2/"
+        },
+        "structure": 2,
+        "questionText": "अगर दूसरा बच्चा गेंद के साथ खेल रहा हैं जो तुम्हें चाहिए, तब तुम क्या करोगे?   ",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/1ec0f53d-d7c4-4bfb-b213-0d488b823b13/",
+          "o2": "https://ucarecdn.com/2c39d9d9-0939-49d1-86e7-f906dfc78a08/",
+          "o3": "https://ucarecdn.com/d264c742-4325-451b-b80e-fd9653d64178/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o2"
+        ]
+      },
+      "_id": "673a23e6665143842c183dff",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d6893ae29c44e7450897",
+        "categoryName": "Task 03: Social Domain - What will you do?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/dd7eea0e-9867-49e6-8138-ef70fa0684c9/"
+        },
+        "structure": 2,
+        "questionText": "यदि आप  किसी  घायल  पंख  वाले  पक्षी  को  देखें  तो  आप  क्या  करेंगे?",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/fe19a272-71da-46fb-bef7-0c6c267f2d0e/",
+          "o2": "https://ucarecdn.com/9f47d0f1-415d-4483-be10-82e377d9d40b/",
+          "o3": "https://ucarecdn.com/dbecd5aa-9d11-4560-9e4d-a51bfd59dcb9/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o3"
+        ]
+      },
+      "_id": "673a2449665143842c183e01",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d6893ae29c44e7450897",
+        "categoryName": "Task 03: Social Domain - What will you do?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "बताओ शिक्षक से सोने का स्टीकर किसे मिला?",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/78b23103-0544-4b96-ad5e-240fb9399f68/",
+          "o2": "https://ucarecdn.com/af6bdad2-ce04-4e45-8706-1d93ff270939/",
+          "o3": "https://ucarecdn.com/3e018724-5965-4f69-8b9c-451ddca974b1/",
+          "o4": "https://ucarecdn.com/ea985db9-19ad-4a9c-8f07-489e6ddc5828/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "6730f07497894cf49846f704",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672f6457a2b39499af368ec7",
+        "categoryName": "Task 04A: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "खेलते  समय  किसको  धक्का  लगा ? इनमे से एक चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/ca59af77-84c3-4f9b-b46a-5be7458bdb03/",
+          "o2": "https://ucarecdn.com/5baf3e89-b4c5-4384-965c-88051d9c7eb2/",
+          "o3": "https://ucarecdn.com/7e52cc56-5c81-4eaa-aa95-e8e5f1385fc9/",
+          "o4": "https://ucarecdn.com/dcfc6134-0b7c-4d0e-ad57-d6a7f54479ff/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "672a2238dac1f2c9f862d483",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7163ae29c44e7450899",
+        "categoryName": "Task 04A: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "रात  में  किसने  बाहर  डरावनी  आवाज सुनी ?इनमे से एक चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/e2d5c802-0928-4969-bf97-8d608e864583/",
+          "o2": "https://ucarecdn.com/aebcc3f6-1ae1-419f-b5c7-f397ca2d599e/",
+          "o3": "https://ucarecdn.com/5816691d-6744-403e-87d5-c62a8c342f75/",
+          "o4": "https://ucarecdn.com/0d046415-aff6-4bac-b5d3-bd6731ac9049/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672a2299dac1f2c9f862d485",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7163ae29c44e7450899",
+        "categoryName": "Task 04A: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/b24062b8-0121-4d64-a312-f557d4c7380d/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनो। ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/ed5a658c-ba7e-4e43-afec-495268856f71/",
+          "o2": "https://ucarecdn.com/674b17c2-18c4-4399-ac29-bacec84eef29/",
+          "o3": "https://ucarecdn.com/6631957a-2c01-49b4-8baf-7d502fc1abf8/",
+          "o4": "https://ucarecdn.com/e6418484-3322-4f42-8e14-8b744efc5f1c/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730f26997894cf49846f717",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730ee1697894cf49846f6fb",
+        "categoryName": "Task 04B: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/ec8ddef0-1423-43e2-8f02-64009fc34af5/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनो। ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/daa5244f-106b-42e1-8bfd-421791d357c3/",
+          "o2": "https://ucarecdn.com/d64539f1-db6e-4d77-b403-bd0221c513ff/",
+          "o3": "https://ucarecdn.com/19175cbb-6bc4-45b5-b3f7-7fe67724bfbe/",
+          "o4": "https://ucarecdn.com/1f3b88c0-1f2c-45a3-a08b-64bdaa3005fa/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a1737f317bc48429f4697",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7293ae29c44e745089b",
+        "categoryName": "Task 04B: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/14bb5ef5-d124-4696-87f9-8c286ff0515d/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनो। ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/94443c45-7fa9-431e-8646-ee3ef33234d3/",
+          "o2": "https://ucarecdn.com/d1997567-7b13-45de-b269-037555555de8/",
+          "o3": "https://ucarecdn.com/03eaec28-745b-4acc-86d0-3f3310916605/",
+          "o4": "https://ucarecdn.com/db36a7e7-08e9-4fdc-a487-c7aac9699fd6/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "672a17a2f317bc48429f4699",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7293ae29c44e745089b",
+        "categoryName": "Task 04B: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/1fbc94fe-d61d-4eed-b24b-0bf8190d0ccc/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/6da26a6b-2f65-4f74-8484-e33744ebd338/",
+          "o2": "https://ucarecdn.com/4e9b2de1-ea12-4062-a553-296e1d9f4c1e/",
+          "o3": "https://ucarecdn.com/c5943751-82d2-4eba-9b41-156e29142ea8/",
+          "o4": "https://ucarecdn.com/3006310c-35ed-4804-9983-abfefd4e0b75/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730f38097894cf49846f71e",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f2d797894cf49846f71b",
+        "categoryName": "Task 04C: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/d2168ed0-dc95-448b-b8ed-11cd6663ca1d/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/75b9a849-bcfc-4953-96fd-2c8d36e199a4/",
+          "o2": "https://ucarecdn.com/8ec113c8-8f09-45d2-bac8-cfaf59a6a057/",
+          "o3": "https://ucarecdn.com/ef2b7533-586c-46aa-8d40-74e5b2b1f5e7/",
+          "o4": "https://ucarecdn.com/b71837d1-8e5e-406b-9608-6e01c97f3226/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730f3db97894cf49846f722",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f0f997894cf49846f70b",
+        "categoryName": "Task 04C: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/77719b6f-58a3-414e-aa1f-14132d17ad0c/"
+        },
+        "structure": 2,
+        "questionText": "बच्चा क्या महसूस कर रहा हैं ? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/3e312b06-e033-4a02-a543-16253c11c0f1/",
+          "o2": "https://ucarecdn.com/2385d5f8-a07a-440c-aff9-0d99541d5628/",
+          "o3": "https://ucarecdn.com/ea03a2b5-6224-44c9-a66f-dbdb34c7b184/",
+          "o4": "https://ucarecdn.com/5973fe70-e3af-4b4e-a990-d93f0b222c1a/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730f40297894cf49846f724",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f0f997894cf49846f70b",
+        "categoryName": "Task 04C: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/781eaea0-9bf2-4412-87aa-33482c0cf2eb/"
+        },
+        "structure": 2,
+        "questionText": "इन  चारों  में  से  कौन  सबसे  अच्छी भावना दिखा रहा हैं ? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/e55c5082-8bbd-4e5e-a062-c731c1673671/",
+          "o2": "https://ucarecdn.com/115ba123-11f9-48ef-8446-6d86c814cbfb/",
+          "o3": "https://ucarecdn.com/65baffa6-4090-4c43-870e-7cbf1297f3c9/",
+          "o4": "https://ucarecdn.com/eb38dc87-4fa4-46df-b364-25c2972247d5/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730f4d797894cf49846f730",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f44f97894cf49846f72b",
+        "categoryName": "Task 04D: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/233573d7-a964-4c74-8764-9d3919818dd0/"
+        },
+        "structure": 2,
+        "questionText": "इन  चारों  में  से  कौन  सबसे  अच्छी भावना दिखा रहा हैं? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/e5f5553c-1d6c-471c-a042-40c204e12393/",
+          "o2": "https://ucarecdn.com/a8d2558e-739e-4534-92e5-51e0fd88c285/",
+          "o3": "https://ucarecdn.com/8101065b-e114-46f3-bb75-565260c48be8/",
+          "o4": "https://ucarecdn.com/72dba6d5-6df7-4945-90bf-596ef4796156/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "6730f53197894cf49846f734",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f43697894cf49846f728",
+        "categoryName": "Task 04D: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/b3652f25-010a-43a1-80f0-e4502915fb4d/"
+        },
+        "structure": 2,
+        "questionText": "इन  चारों  में  से  कौन  सबसे  अच्छी भावना दिखा रहा हैं? चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/defabcb2-a220-4ea3-a6e1-424fac24626f/",
+          "o2": "https://ucarecdn.com/96209c86-66aa-460d-9f85-400daf83376c/",
+          "o3": "https://ucarecdn.com/37cc92d5-c2f8-477a-911b-29457edd0980/",
+          "o4": "https://ucarecdn.com/9e529dd6-6b89-4f1d-99f7-2cba8d4b3b38/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "6730f55697894cf49846f736",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f43697894cf49846f728",
+        "categoryName": "Task 04D: Social Domain - What Do You Feel?"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "स्वास्थ्यकर खाना  चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/c5045775-9152-4d87-aa68-ce8fa84914e8/",
+          "o2": "https://ucarecdn.com/3a26eece-4729-4a9f-be4c-9627102b3c66/",
+          "o3": "https://ucarecdn.com/f33f742e-add2-4c98-a33a-6a5696ef83ee/",
+          "o4": "https://ucarecdn.com/6e90ed93-8be1-416e-ab21-4b2a2495b8cb/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730f67897894cf49846f749",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f5e697894cf49846f740",
+        "categoryName": "Task 05: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "अस्वास्थ्यकर खाना  चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/bb23fe0d-c3e3-48f7-a826-2cc688c213bc/",
+          "o2": "https://ucarecdn.com/ef26553a-59ec-4d8c-8559-7161c7ada8a1/",
+          "o3": "https://ucarecdn.com/8fa87a26-2efe-47c5-9a24-c81d56486dab/",
+          "o4": "https://ucarecdn.com/b60aeda2-960b-4f8c-9590-1bbf85a46f18/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a24e9dac1f2c9f862d48d",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7c53ae29c44e74508a2",
+        "categoryName": "Task 05: Physical Domain - Healthy vs. Unhealthy"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "स्वस्थ खाना चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/ed84623e-6ad8-4caa-896a-9b3f92574650/",
+          "o2": "https://ucarecdn.com/6043946b-64df-4f3d-b7d6-7fb705c41405/",
+          "o3": "https://ucarecdn.com/ea8e896e-e2d9-4471-a88b-f1313d4be4b0/",
+          "o4": "https://ucarecdn.com/6428629c-af47-4d11-8893-492016a9d656/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a252cdac1f2c9f862d48f",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7c53ae29c44e74508a2",
+        "categoryName": "Task 05: Physical Domain - Healthy vs. Unhealthy"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "अस्वास्थ्यकर पेय चुनें |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/2d6481d0-f91b-4b43-a1c2-d59c22808bb5/",
+          "o2": "https://ucarecdn.com/14a873b1-efef-4e04-a7ee-22fcc4ef3381/",
+          "o3": "https://ucarecdn.com/abea178c-acab-4628-9598-4e390d1cfe10/",
+          "o4": "https://ucarecdn.com/6b99f237-962e-4cf8-b445-6a1eaec300ea/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672a256cdac1f2c9f862d493",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d7c53ae29c44e74508a2",
+        "categoryName": "Task 05: Physical Domain - Healthy vs. Unhealthy"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/718f66fb-4daf-4d04-aef7-e54d61debb58/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह अच्छी आदत है या बुरी आदत?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/48d593f7-389a-4643-aff1-8352dd82f262/",
+          "o2": "https://ucarecdn.com/e2c8696c-98a4-4398-90dc-259ad517a3ea/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "673a228c665143842c183df4",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f5fd97894cf49846f743",
+        "categoryName": "Task 06: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/257d1c98-eceb-4de1-8085-2fa90b308f9d/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह अच्छी आदत है या बुरी आदत?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/e6f3a291-4a39-43e9-a199-aa2c783b0921/",
+          "o2": "https://ucarecdn.com/a52ac873-a292-4a0e-8376-cbb83ff207c7/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a2648dac1f2c9f862d497",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d8113ae29c44e74508a8",
+        "categoryName": "Task 06: Physical Domain - Identify Good vs. Bad Habits"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/7d83e8af-237a-4a1c-8aa4-d2a0a8b5a719/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह अच्छी आदत है या बुरी आदत?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/74267806-cc73-4a7e-9f7e-9af363ba45d1/",
+          "o2": "https://ucarecdn.com/f74855aa-c356-4064-9ea4-0ad6f0bde9df/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a26addac1f2c9f862d49b",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d8113ae29c44e74508a8",
+        "categoryName": "Task 06: Physical Domain - Identify Good vs. Bad Habits"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/36ed8634-66f2-4edb-95da-6d32242059df/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह अच्छी आदत है या बुरी आदत?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/65c2f59e-f9fe-4d34-82dc-5e9f40fc3cef/",
+          "o2": "https://ucarecdn.com/97a77821-8336-4d67-88fc-bd3ef04933ea/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a27e2dac1f2c9f862d49f",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d8113ae29c44e74508a8",
+        "categoryName": "Task 06: Physical Domain - Identify Good vs. Bad Habits"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/d3f0f664-bb62-49e4-90d0-31dc04fa03b3/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह अच्छी आदत है या बुरी आदत?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/8f636826-db79-43a8-bd3b-284a61b191db/",
+          "o2": "https://ucarecdn.com/3a59549b-de9a-42e4-8298-2481ed408e85/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a2840dac1f2c9f862d4a3",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d8113ae29c44e74508a8",
+        "categoryName": "Task 06: Physical Domain - Identify Good vs. Bad Habits"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/3523ca01-46f5-4dee-8149-33b751e92015/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह स्थिति सुरक्षित या असुरक्षित है?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/3dd4a131-3e00-43da-9652-5c70bf207c63/",
+          "o2": "https://ucarecdn.com/9af42178-96a3-4f50-b894-567ad1c7a8a4/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "6730f7ad97894cf49846f74f",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6730f61697894cf49846f745",
+        "categoryName": "Task 07: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/1f5c7631-07c9-4cb7-b97a-83babafd480f/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह स्थिति सुरक्षित या असुरक्षित है?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/385b020c-aec2-4111-ba3b-9766c06a0606/",
+          "o2": "https://ucarecdn.com/f5d24993-0996-4335-aea5-e9a1cc5b9dda/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a2ba7dac1f2c9f862d4a5",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d83d3ae29c44e74508aa",
+        "categoryName": "Task 07: Physical Domain - Identify Safe vs. Unsafe Situations"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/d2c83414-6d11-444d-982c-fe8fd9842e4a/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह स्थिति सुरक्षित या असुरक्षित है?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/6de019b1-f779-448c-a911-713d09d434db/",
+          "o2": "https://ucarecdn.com/130a6479-c4f1-4a09-ae92-ff299738bc49/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a2c77dac1f2c9f862d4a7",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d83d3ae29c44e74508aa",
+        "categoryName": "Task 07: Physical Domain - Identify Safe vs. Unsafe Situations"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/15c312b9-10c8-46b5-ba2f-95ff7e4b1e2c/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह स्थिति सुरक्षित या असुरक्षित है?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/355b7878-ea78-4011-a828-9b9539d00b4e/",
+          "o2": "https://ucarecdn.com/4b49c60e-4b8f-4c16-932f-b537dc8e23e3/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a2d88dac1f2c9f862d4a9",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d83d3ae29c44e74508aa",
+        "categoryName": "Task 07: Physical Domain - Identify Safe vs. Unsafe Situations"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/b5a0670d-63ee-4477-871d-a66b45959bbd/"
+        },
+        "structure": 2,
+        "questionText": "क्या यह स्थिति सुरक्षित या असुरक्षित है?",
+        "questionType": "single",
+        "totalOptions": 2,
+        "option": {
+          "o1": "https://ucarecdn.com/32dc8d52-a072-48f5-b113-9ca1f7603331/",
+          "o2": "https://ucarecdn.com/de10a376-5f1b-4426-a7d4-ea80da36144b/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a2db9dac1f2c9f862d4ab",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6729d83d3ae29c44e74508aa",
+        "categoryName": "Task 07: Physical Domain - Identify Safe vs. Unsafe Situations"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 7,
+        "questionText": "इन्द्रियों को उसके कार्य से मिलाओ",
+        "questionType": "multi",
+        "totalOptions": 5,
+        "correctAnswer": [
+          "त्वचा-Teddy",
+          "आंख-Candle",
+          "कान-Speaker",
+          "नाक-Perfume",
+          "जीभ-IceCream"
+        ]
+      },
+      "_id": "6731e4361018b73b9063b2e8",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731baf01018b73b9063b284",
+        "categoryName": "Task 08: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 7,
+        "questionText": "इन्द्रियों  को उसके कार्य से मिलाओ",
+        "questionType": "multi",
+        "totalOptions": 5,
+        "correctAnswer": [
+          "कान-Speaker",
+          "नाक-Agarbatti",
+          "जीभ-Jalebi",
+          "त्वचा-Ice",
+          "आंख-Ball"
+        ]
+      },
+      "_id": "672abb3e48360df6d29de214",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a3b423e60d90a06e229d0",
+        "categoryName": "Task 08: Physical Domain -  Uses of Different Body Parts"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "ऐसा आवाज कौन सा जानवर निकालता है?",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/d01da3bc-0b5e-44ce-a12a-4588b344a741/",
+        "questionSoundText": "चहचहाना",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/5c613446-77a4-41a8-863a-a95d0b3c4f20/",
+          "o2": "https://ucarecdn.com/18edf4e0-8dbd-4d74-84ac-926b3deef8ff/",
+          "o3": "https://ucarecdn.com/1b95934b-e7ed-40a4-8de9-009c78ff04e3/",
+          "o4": "https://ucarecdn.com/2f384a93-2b90-4162-ab89-38e0894eef3d/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "67310638039e653b0796f269",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67310435039e653b0796f266",
+        "categoryName": "Task 09: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "ऐसा आवाज कौन सा जानवर निकालता है?",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/18d1ed87-a27b-48e2-b8a9-51af0d443b5e/",
+        "questionSoundText": "भौं-भौं!",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/8e47c691-00ef-46f6-96f3-f0e52722c5b2/",
+          "o2": "https://ucarecdn.com/d0647540-3d92-4f4f-b6b6-8c32ec0eec22/",
+          "o3": "https://ucarecdn.com/6ba82b2a-c9f7-43e5-bd75-306ddfb1e425/",
+          "o4": "https://ucarecdn.com/cf3d4664-20de-409c-82be-5d573016b7f2/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a302ddac1f2c9f862d4b0",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a26093e60d90a06e22976",
+        "categoryName": "Task 09: Physical Domain - Identify Animals on the Basis of Their Sound"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "ऐसा आवाज कौन सा जानवर निकालता है?",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/d1524c74-8883-4675-9a00-ca41560e83cc/",
+        "questionSoundText": "मू- मू !",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/7dbc4f42-f177-418f-baf3-1328bb863940/",
+          "o2": "https://ucarecdn.com/c0552938-473b-41c6-b45b-e5249fc9cc42/",
+          "o3": "https://ucarecdn.com/9e08c4af-7f61-47e0-8cc1-6cf1d3299e3e/",
+          "o4": "https://ucarecdn.com/da92e6ac-55c9-4781-8fd3-5a5b589d1009/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a352bdac1f2c9f862d52a",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a26093e60d90a06e22976",
+        "categoryName": "Task 09: Physical Domain - Identify Animals on the Basis of Their Sound"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "ऐसा आवाज कौन सा जानवर निकालता है?",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/47314792-5f10-4243-9ff4-0a77c6a2734c/",
+        "questionSoundText": "दहाड़ना",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/44c8c64b-1362-4a72-ab67-d433bf84d679/",
+          "o2": "https://ucarecdn.com/6a791179-239d-4fee-9076-2ce47cb24423/",
+          "o3": "https://ucarecdn.com/18a051d7-995d-4407-88c9-d08aa16888df/",
+          "o4": "https://ucarecdn.com/339f712b-014b-48c5-9289-c9859508b293/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a363ddac1f2c9f862d530",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a26093e60d90a06e22976",
+        "categoryName": "Task 09: Physical Domain - Identify Animals on the Basis of Their Sound"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "ऐसा आवाज कौन सा जानवर निकालता है?",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/3fc6b8ee-19d7-48cc-8d2b-6aca59bc5126/",
+        "questionSoundText": "म्याऊँ - म्याऊँ",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/39132eee-e1ca-4c64-961b-88850408b63d/",
+          "o2": "https://ucarecdn.com/71d7d922-f114-4f0d-a84f-bb9ba3a24101/",
+          "o3": "https://ucarecdn.com/bf7552ed-8e9e-4257-aa24-59a3c8c9ff35/",
+          "o4": "https://ucarecdn.com/16e43471-dcf3-41d6-87c5-0af9c83d50b5/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672a3777dac1f2c9f862d532",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a26093e60d90a06e22976",
+        "categoryName": "Task 09: Physical Domain - Identify Animals on the Basis of Their Sound"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/f661a133-7f85-4364-a5a0-8f456f4bbdb8/"
+        },
+        "structure": 8,
+        "questionText": "आकार बनाओ |",
+        "questionType": "draw",
+        "totalOptions": -1,
+        "correctAnswer": [
+          "draw"
+        ]
+      },
+      "_id": "67310724039e653b0796f275",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "673106c0039e653b0796f26d",
+        "categoryName": "Task 10: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/613ec8e3-eb1b-452a-a1b0-aa2a5c27f561/"
+        },
+        "structure": 8,
+        "questionText": "आकार बनाओ |",
+        "questionType": "draw",
+        "totalOptions": -1,
+        "correctAnswer": [
+          "draw"
+        ]
+      },
+      "_id": "672d5b46c0af5e89cdfb7500",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a3b0b3e60d90a06e229ca",
+        "categoryName": "Task 10: Physical Domain - Draw Shapes"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/47cb7852-7bed-482c-94b0-7b41f5198fac/"
+        },
+        "structure": 8,
+        "questionText": "आकार बनाओ |",
+        "questionType": "draw",
+        "totalOptions": -1,
+        "correctAnswer": [
+          "draw"
+        ]
+      },
+      "_id": "672d5b58c0af5e89cdfb7502",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a3b0b3e60d90a06e229ca",
+        "categoryName": "Task 10: Physical Domain - Draw Shapes"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/545af2f3-6daf-4ee6-918e-bc668cc42c0e/"
+        },
+        "structure": 8,
+        "questionText": "आकार बनाओ |",
+        "questionType": "draw",
+        "totalOptions": -1,
+        "correctAnswer": [
+          "draw"
+        ]
+      },
+      "_id": "672d5b6cc0af5e89cdfb7504",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a3b0b3e60d90a06e229ca",
+        "categoryName": "Task 10: Physical Domain - Draw Shapes"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/ed39c810-49f9-4267-a287-2f60f60fc2f6/"
+        },
+        "structure": 8,
+        "questionText": "आकार बनाओ |",
+        "questionType": "draw",
+        "totalOptions": -1,
+        "correctAnswer": [
+          "draw"
+        ]
+      },
+      "_id": "672d5b7cc0af5e89cdfb7506",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a3b0b3e60d90a06e229ca",
+        "categoryName": "Task 10: Physical Domain - Draw Shapes"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/1648faa6-9ee4-4fbe-b53c-6b1605da04f9/"
+        },
+        "structure": 2,
+        "questionText": "लापता हिस्सा चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/6a08352e-dabc-40f8-90c2-95689bb5bdf5/",
+          "o2": "https://ucarecdn.com/78089d63-fd06-473d-a8cd-e8b1cc44aa6d/",
+          "o3": "https://ucarecdn.com/25b1383e-666e-4629-9812-7dce01abf981/",
+          "o4": "https://ucarecdn.com/81b95c2b-cd64-4e15-b186-89323dd9cf8c/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "673107e1039e653b0796f27c",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67310761039e653b0796f279",
+        "categoryName": "Task 11: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/b2e34f03-ad68-4803-9e8e-8d978ad90396/"
+        },
+        "structure": 2,
+        "questionText": "लापता हिस्सा चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/97f298eb-6e6a-47f5-bc0a-f74b400999c4/",
+          "o2": "https://ucarecdn.com/6b1919a7-bcf9-432e-aee3-514fb6f99b25/",
+          "o3": "https://ucarecdn.com/db04d991-32fc-4715-9b6e-bcb55edbc264/",
+          "o4": "https://ucarecdn.com/df466352-0786-481d-a8ee-c93df37534da/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a3988dac1f2c9f862d536",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a27f73e60d90a06e2297b",
+        "categoryName": "Task 11: Cognitive Domain - Missing element"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/ab84580b-ee91-4ee6-ba42-29bcf2e2b2fe/"
+        },
+        "structure": 2,
+        "questionText": "लापता हिस्सा चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/4ccaacfa-926c-4053-b9fb-f35f2601e226/",
+          "o2": "https://ucarecdn.com/3bd32c6f-d579-4ff6-bf0d-95188cd2daa7/",
+          "o3": "https://ucarecdn.com/055b195d-657d-495d-96fa-50f19d04d159/",
+          "o4": "https://ucarecdn.com/6af03ff9-11c4-496e-9d84-d12f6899c447/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672a3a53dac1f2c9f862d538",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a27f73e60d90a06e2297b",
+        "categoryName": "Task 11: Cognitive Domain - Missing element"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/f4d92d3d-c9f8-43d9-935c-a663addeb419/"
+        },
+        "structure": 2,
+        "questionText": "लापता हिस्सा चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/a190f981-8308-4087-a459-529497d06bc5/",
+          "o2": "https://ucarecdn.com/bbef9582-f3cd-47fc-8580-837885246f11/",
+          "o3": "https://ucarecdn.com/f1b33659-69c1-4cc6-b3c3-8fd6cf5e8cb9/",
+          "o4": "https://ucarecdn.com/59a5b205-8d88-4f55-87d9-b7f038928b79/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a3a80dac1f2c9f862d53a",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a27f73e60d90a06e2297b",
+        "categoryName": "Task 11: Cognitive Domain - Missing element"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/74b67fea-b9e1-4b74-8491-bfb0dadfb7fc/"
+        },
+        "structure": 2,
+        "questionText": "लापता हिस्सा चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/86d82401-1e2e-48c5-88f1-1bf8c799e575/",
+          "o2": "https://ucarecdn.com/589926f2-61a7-448e-93e8-602dcef7c497/",
+          "o3": "https://ucarecdn.com/e27af384-93ce-4607-8d90-cccbef3ec45f/",
+          "o4": "https://ucarecdn.com/6401cdc6-b153-4167-a533-3e2d0bdcbe72/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672a3aa6dac1f2c9f862d53c",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a27f73e60d90a06e2297b",
+        "categoryName": "Task 11: Cognitive Domain - Missing element"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "8 बिस्किट्स वाला चित्र चुनो | ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/bcc9dbd8-1fc5-4be2-a8a7-d5352fe702c9/",
+          "o2": "https://ucarecdn.com/133967c9-7587-404d-ae48-531b2fd62259/",
+          "o3": "https://ucarecdn.com/1a2c973e-fb56-4e33-a1f4-f804000dfcad/",
+          "o4": "https://ucarecdn.com/01a83431-3405-4743-9451-ac073063796d/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "67310a82039e653b0796f283",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "673108b6039e653b0796f280",
+        "categoryName": "Task 12A: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "सबसे  ज्यादा वस्तुएं किसमे हैं?",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/feaa7bf6-784f-40b2-9fd4-7f02fd5d61c8/",
+          "o2": "https://ucarecdn.com/a39230e0-9fb3-42d9-b07a-b8b352d4fcfb/",
+          "o3": "https://ucarecdn.com/6bf4d146-2cfb-4d53-88f8-7c423adb5c5a/",
+          "o4": "https://ucarecdn.com/ac15b757-299e-4f11-82bc-4774b6a37ed0/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672c49fa6bf1dfe862e04187",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28573e60d90a06e2297d",
+        "categoryName": "Task 12A: Cognitive Domain - Arithmetic "
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "9 पेंसिल्स वाला चित्र चुनो | ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/44bfdfaa-cad3-46ec-bb5b-66b916f3fff7/",
+          "o2": "https://ucarecdn.com/722ab0aa-7f28-4794-a90f-3b2fd925bc55/",
+          "o3": "https://ucarecdn.com/b0e61cbe-e598-44a8-969d-b3d4e00ff9c9/",
+          "o4": "https://ucarecdn.com/8bd0eaa1-4c6e-4bcb-8827-41133399b31c/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "672c4a2a6bf1dfe862e04189",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28573e60d90a06e2297d",
+        "categoryName": "Task 12A: Cognitive Domain - Arithmetic "
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/48f540d0-28dd-4e08-b7dd-24678fe4b82e/"
+        },
+        "structure": 2,
+        "questionText": "दिखाई गयी संख्या (नंबर ) से बड़ी संख्या चुनो | ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/1dbada6f-ead6-46a5-b196-4dfe38bce80d/",
+          "o2": "https://ucarecdn.com/281ebe60-e35b-4616-9f11-a54cb289bd42/",
+          "o3": "https://ucarecdn.com/fd8392d8-359a-40f1-a614-200e7efbbd87/",
+          "o4": "https://ucarecdn.com/98b0be28-f47b-4867-bf0d-30f7ee04fcd3/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672a3d9ddac1f2c9f862d546",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28733e60d90a06e2297f",
+        "categoryName": "Task 12B: Cognitive Domain - Arithmetic"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/021d4158-5299-432e-b293-acbe1904b446/"
+        },
+        "structure": 2,
+        "questionText": "प्रेम के पास 4 सिक्के हैं और उसकी माँ ने उसे 2 सिक्के और दे दिए|बताओ अब उसके पास कितने सिक्के हैं ? ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/cf115ac2-dabc-4a85-8d94-1f549c1b4726/",
+          "o2": "https://ucarecdn.com/2ed89b52-cacb-4a1b-a890-7f580acf0f51/",
+          "o3": "https://ucarecdn.com/9e5b49e6-9203-4705-8372-5aecfdc5c84b/",
+          "o4": "https://ucarecdn.com/b224b3eb-ca47-4f33-98de-dfdc717da87e/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "672a3debdac1f2c9f862d548",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28733e60d90a06e2297f",
+        "categoryName": "Task 12B: Cognitive Domain - Arithmetic"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/4a9648ad-ee9b-4b11-b132-2d58d58ea3a3/"
+        },
+        "structure": 2,
+        "questionText": "इस चित्र में कितने बिस्किट्स हैं ? ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/7b9572f5-3b1b-4c97-b917-330040e1c452/",
+          "o2": "https://ucarecdn.com/2fcb7f9a-4431-42b8-915e-4c509af3c4b8/",
+          "o3": "https://ucarecdn.com/a7d6d4cb-d389-4ff2-8eaf-54536119db6f/",
+          "o4": "https://ucarecdn.com/adb32529-1d43-4063-a658-07d8e8ca8bfb/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a3f7edac1f2c9f862d554",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28733e60d90a06e2297f",
+        "categoryName": "Task 12B: Cognitive Domain - Arithmetic"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/2b29644b-88f4-4ad1-ba2e-ac53b757954f/"
+        },
+        "structure": 2,
+        "questionText": "दिखाई गयी संख्या (नंबर ) से छोटी संख्या चुनो |",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/7e932eac-f065-4a13-9fa3-9e0d9e687d69/",
+          "o2": "https://ucarecdn.com/54133b21-be02-4e5c-8ca3-0799cdd9eb1e/",
+          "o3": "https://ucarecdn.com/81b86ba1-6abe-4c12-82b0-8471af288b82/",
+          "o4": "https://ucarecdn.com/980c4d7a-062f-4898-a771-e81617d1da32/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672a3fecdac1f2c9f862d556",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a28733e60d90a06e2297f",
+        "categoryName": "Task 12B: Cognitive Domain - Arithmetic"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "भारी वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/d1ab6db7-05df-4856-8974-af9e3edc9908/",
+          "o2": "https://ucarecdn.com/2490a37f-b8c9-4645-ad61-1243e762eb15/",
+          "o3": "https://ucarecdn.com/3dd0e1fc-9e7c-433e-a4aa-30295b97a538/",
+          "o4": "https://ucarecdn.com/9380aaeb-befb-41c0-a980-9aafbee8a1bc/"
+        },
+        "correctAnswer": [
+          "o4"
+        ]
+      },
+      "_id": "67310c17039e653b0796f290",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67310b6c039e653b0796f28a",
+        "categoryName": "Task 13A: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "भारी वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/e8162a82-c7c9-4eb7-aea7-5b12973da35a/",
+          "o2": "https://ucarecdn.com/557fb198-b3a6-4e61-8052-4623df7df1cb/",
+          "o3": "https://ucarecdn.com/7bf6ae03-518b-478a-bbcd-d179054e8da2/",
+          "o4": "https://ucarecdn.com/932625eb-3f92-40c2-bb5e-fa086b5f2084/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672b46409393d302d224e504",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "भारी वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/18e6d9ce-819d-46f7-a008-422b9581e7b2/",
+          "o2": "https://ucarecdn.com/fd57dbab-8c3c-4b3b-8733-8b8459bf4694/",
+          "o3": "https://ucarecdn.com/051ca560-af85-464e-b799-6b2d04fd0f4a/",
+          "o4": "https://ucarecdn.com/782e0d86-ced9-450e-b980-92ac56f68fce/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672b46609393d302d224e506",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "भारी वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/c0b604b2-09dd-492d-b0fd-71989481f84b/",
+          "o2": "https://ucarecdn.com/23f948c9-8b40-4e50-9116-02d3ffdf50c9/",
+          "o3": "https://ucarecdn.com/7122e35d-2ff6-4978-9d3c-759da39c90fe/",
+          "o4": "https://ucarecdn.com/5a1d52af-7dc4-48c4-a9f6-a6dd8c045a10/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "672b46a69393d302d224e508",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "भारी वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/ebeff973-dfc0-458e-b877-5d34ad967040/",
+          "o2": "https://ucarecdn.com/df2b89c2-6142-4727-a027-883fb527c1d3/",
+          "o3": "https://ucarecdn.com/d279b990-8737-4004-9a62-4854b2d123e5/",
+          "o4": "https://ucarecdn.com/f00b150b-5fad-4645-8af5-23a34ec8800a/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "672b46d99393d302d224e50a",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "हल्की वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/3c824057-46dd-4c67-9626-9748d40b7600/",
+          "o2": "https://ucarecdn.com/ec40d4a3-f195-4e9e-b721-594c50fdf029/",
+          "o3": "https://ucarecdn.com/da2cdcc1-ba3a-4781-81dc-944cb28772e4/",
+          "o4": "https://ucarecdn.com/d7df0c34-1e65-4405-9cf9-d8784131b86e/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672b471f9393d302d224e50c",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "हल्की वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/ab0da6d7-5801-45f6-b094-bc39f40247a3/",
+          "o2": "https://ucarecdn.com/5d7eb0fa-8c88-4b61-9926-305e54e043c8/",
+          "o3": "https://ucarecdn.com/6d97f182-e93b-4564-900d-33382dcf4778/",
+          "o4": "https://ucarecdn.com/6eabb39f-7024-4ef2-a6dd-1c86e917a858/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672b474c9393d302d224e50e",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "हल्की वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/1c6f97a1-242a-4749-9a7e-387c5dfc0584/",
+          "o2": "https://ucarecdn.com/358d07b9-dea5-4415-8a8b-3d434be5ed8a/",
+          "o3": "https://ucarecdn.com/dd3fec65-22e0-42d9-867d-4ea9d617206a/",
+          "o4": "https://ucarecdn.com/7664d46c-8be5-470f-8412-c5998439005d/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672b47749393d302d224e510",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 3,
+        "questionText": "हल्की वस्तु चुनो| ",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/dcfcfac8-40e2-4c28-be52-54d2791fccd6/",
+          "o2": "https://ucarecdn.com/9cd321c1-a2c3-48ac-9c7d-b87da5fbb3f0/",
+          "o3": "https://ucarecdn.com/d82daeb0-5366-4b31-b88d-273ecdf9c743/",
+          "o4": "https://ucarecdn.com/1606ef55-5386-4d52-af95-5828cc29d221/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "672b47a89393d302d224e512",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29213e60d90a06e22981",
+        "categoryName": "Task 13A: Cognitive Domain - Sorting - Heavy Light"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "छोटी कप चुनो |",
+        "questionType": "multi",
+        "totalOptions": 8,
+        "option": {
+          "o1": "https://ucarecdn.com/ba7877b5-5cd3-49fd-bac5-579f85b668fb/",
+          "o2": "https://ucarecdn.com/c6568345-bf70-48be-b38b-4da9a5b5d94a/",
+          "o3": "https://ucarecdn.com/da4925e5-3edc-4ced-8acc-5a3247092cd7/",
+          "o4": "https://ucarecdn.com/0eb40d06-6c1e-4d27-aa61-338431c9435a/",
+          "o5": "https://ucarecdn.com/889e76a4-2e5f-4329-8e21-a93485e895a6/",
+          "o6": "https://ucarecdn.com/a05e9228-d333-4418-9fac-8a0841811957/",
+          "o7": "https://ucarecdn.com/737dbeb6-a180-47ea-b5bf-0678b864ea1b/",
+          "o8": "https://ucarecdn.com/2e842ff9-2177-4476-92f2-bb3c1f80b3d5/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o4",
+          "o5",
+          "o8"
+        ]
+      },
+      "_id": "67310e90039e653b0796f297",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67310c6e039e653b0796f294",
+        "categoryName": "Task 13B: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "छोटी बत्तख चुनो |",
+        "questionType": "multi",
+        "totalOptions": 10,
+        "option": {
+          "o1": "https://ucarecdn.com/de9dc34c-6ede-49c5-abbc-cfe93b84062f/",
+          "o2": "https://ucarecdn.com/44a35126-8cc3-4b17-96da-f579b7b31f6a/",
+          "o3": "https://ucarecdn.com/e411e885-41cc-4fdc-9884-a13a7b7ef900/",
+          "o4": "https://ucarecdn.com/217e5cbd-02a8-446b-8672-06f39f6f526c/",
+          "o5": "https://ucarecdn.com/e4199803-03e0-407b-b770-c215e5d78435/",
+          "o6": "https://ucarecdn.com/2f019386-e876-4109-b318-16ceda8c2b17/",
+          "o7": "https://ucarecdn.com/62e1a0ed-a39e-4a7f-84d2-ca6f56d6a598/",
+          "o8": "https://ucarecdn.com/a3e148cf-1306-4dcb-a515-0163141367c1/",
+          "o9": "https://ucarecdn.com/aadcd384-eab1-4abb-91f4-665d15c04f15/",
+          "o10": "https://ucarecdn.com/c90d5d21-6d4b-47fe-b9c2-5af2e895bab8/"
+        },
+        "correctAnswer": [
+          "o2",
+          "o3",
+          "o6",
+          "o7",
+          "o10"
+        ]
+      },
+      "_id": "672a3f00dac1f2c9f862d54a",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29453e60d90a06e22983",
+        "categoryName": "Task 13B: Cognitive Domain - Sorting - Big Small"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "बड़ी बत्तख चुनो ",
+        "questionType": "multi",
+        "totalOptions": 10,
+        "option": {
+          "o1": "https://ucarecdn.com/2bc4ed2d-ba57-4f80-9efc-ed89ae90516a/",
+          "o2": "https://ucarecdn.com/2c773e91-9c03-459a-b3d7-d51af1534d94/",
+          "o3": "https://ucarecdn.com/01e4522e-9582-46bc-9eb1-c4fffce85f50/",
+          "o4": "https://ucarecdn.com/3963efa9-b854-429f-b2e4-014e22979294/",
+          "o5": "https://ucarecdn.com/339f613b-b38c-430f-9095-84aff8121513/",
+          "o6": "https://ucarecdn.com/1d5508c6-4879-49a1-867a-e41590de99b7/",
+          "o7": "https://ucarecdn.com/e41d8e95-82b3-4a64-8930-f521986dd3b8/",
+          "o8": "https://ucarecdn.com/2867f69c-b6c3-4758-90be-aa83049c92bf/",
+          "o9": "https://ucarecdn.com/2a373090-5cc1-4ced-8e0f-ed6ac9d932b3/",
+          "o10": "https://ucarecdn.com/27a87899-751f-4f1d-96e1-6f4ddee774f7/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o4",
+          "o5",
+          "o8",
+          "o9"
+        ]
+      },
+      "_id": "672b0c77e6598211fb9c7a0b",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a29453e60d90a06e22983",
+        "categoryName": "Task 13B: Cognitive Domain - Sorting - Big Small"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "before": "https://ucarecdn.com/0e8c21e2-7479-48ed-bcc1-261aa4f25098/",
+          "after": "https://ucarecdn.com/8bf0bda8-02a2-4395-b16a-5973f2b0f009/"
+        },
+        "structure": 1,
+        "questionText": "आकार के अंदर का सही चिह्न चुनो |",
+        "questionType": "single",
+        "totalOptions": 3,
+        "option": {
+          "o1": "https://ucarecdn.com/29dbcc0d-a416-4a31-b711-40b00fffa31a/",
+          "o2": "https://ucarecdn.com/21193769-4c26-492a-ae20-f63b7427fffd/",
+          "o3": "https://ucarecdn.com/ad3f6ea7-02d6-4159-8539-1d7e374b1b37/"
+        },
+        "correctAnswer": [
+          "o3"
+        ]
+      },
+      "_id": "67310fe0039e653b0796f2a1",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67310f39039e653b0796f29b",
+        "categoryName": "Task 14: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "जानवर चुनो ",
+        "questionType": "multi",
+        "totalOptions": 8,
+        "option": {
+          "o1": "https://ucarecdn.com/28bf5f52-1394-4e9a-9b4d-3f8cedc44867/",
+          "o2": "https://ucarecdn.com/deef65b9-9f4d-4e48-a7b8-f457a909ba21/",
+          "o3": "https://ucarecdn.com/1d7d1881-657f-4e2e-95d7-bba0a3e72c04/",
+          "o4": "https://ucarecdn.com/e181dd3f-96e2-499d-9050-1c4d4022d434/",
+          "o5": "https://ucarecdn.com/d60fae13-5982-4b4c-bade-ce87947c0b11/",
+          "o6": "https://ucarecdn.com/a66be890-5fbc-42cc-bc74-4795b61fcefd/",
+          "o7": "https://ucarecdn.com/35d49a59-63d8-499a-b8f5-28df3d721f06/",
+          "o8": "https://ucarecdn.com/2a624288-76c1-44d5-973a-855eb0cf3ae2/"
+        },
+        "correctAnswer": [
+          "o2",
+          "o3",
+          "o4",
+          "o7",
+          "o8"
+        ]
+      },
+      "_id": "673111ef039e653b0796f2a8",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "67311142039e653b0796f2a5",
+        "categoryName": "Task 15: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "जानवर चुनो ",
+        "questionType": "multi",
+        "totalOptions": 8,
+        "option": {
+          "o1": "https://ucarecdn.com/f32a104e-2d88-417a-9504-e0a6ba39ec8d/",
+          "o2": "https://ucarecdn.com/a3ae49d1-8e8a-4d78-8f44-eb94beed27a0/",
+          "o3": "https://ucarecdn.com/5ebfe8de-de27-480f-98c3-72ace83400e7/",
+          "o4": "https://ucarecdn.com/6153cf9d-be48-4158-9e5c-b953e27122f0/",
+          "o5": "https://ucarecdn.com/593d66df-192e-4d99-9ee3-fd3a83ba62c7/",
+          "o6": "https://ucarecdn.com/8a4bf683-f466-46e7-b626-8069748a1c85/",
+          "o7": "https://ucarecdn.com/83d32c09-564c-4135-a9f3-e381534f0eff/",
+          "o8": "https://ucarecdn.com/c45ae5f3-321c-42ad-809c-93d049824acc/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o4",
+          "o5",
+          "o6",
+          "o8"
+        ]
+      },
+      "_id": "672b1b129393d302d224e3c5",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a36613e60d90a06e229b8",
+        "categoryName": "Task 15: Cognitive Domain - Category Sorting"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 5,
+        "questionText": "फल चुनो ",
+        "questionType": "multi",
+        "totalOptions": 8,
+        "option": {
+          "o1": "https://ucarecdn.com/0c12861c-b394-48d4-9d38-2c4ce30e0a41/",
+          "o2": "https://ucarecdn.com/ea3a1aa4-a5e8-41fb-94d7-2fc3ff0b59e2/",
+          "o3": "https://ucarecdn.com/bf886ade-6716-4951-a625-9d736914a520/",
+          "o4": "https://ucarecdn.com/436c6c9f-49db-47c3-9d84-c9f94c592145/",
+          "o5": "https://ucarecdn.com/b24df48f-5e49-42e4-93c7-b3737eff3167/",
+          "o6": "https://ucarecdn.com/be641af2-5d07-4a69-ba3f-ee923a59ce38/",
+          "o7": "https://ucarecdn.com/cc86c925-598a-4121-a28a-d3d1df6c343c/",
+          "o8": "https://ucarecdn.com/b3d389c1-f429-424c-9ecd-88e94e54156e/"
+        },
+        "correctAnswer": [
+          "o1",
+          "o2",
+          "o4",
+          "o5",
+          "o8"
+        ]
+      },
+      "_id": "672b1bab9393d302d224e3c7",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "672a36613e60d90a06e229b8",
+        "categoryName": "Task 15: Cognitive Domain - Category Sorting"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/007b0552-cba3-43eb-ab01-a4bb71957113/"
+        },
+        "structure": 2,
+        "questionText": "दिखाई गयी चित्र का पहला अक्षर क्या हैं ?",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/dd9bbb63-a646-4539-b310-863fd02afb14/",
+          "o2": "https://ucarecdn.com/24991f96-f17e-4f3c-903b-6efdaf36577f/",
+          "o3": "https://ucarecdn.com/ddafb5ea-9fe0-4d5a-bceb-a34e94490f41/",
+          "o4": "https://ucarecdn.com/0c9efe64-56d7-4f05-aa16-0e0ff13e2311/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "67311311039e653b0796f2af",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "673112e5039e653b0796f2ac",
+        "categoryName": "Task 16: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "structure": 4,
+        "questionText": "सुनाये गए शब्द का पहला अक्षर क्या हैं ? ",
+        "questionType": "single",
+        "questionSound": "https://ucarecdn.com/f1d03103-8230-4440-af22-bc4d859164e5/",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/3f8ac6c9-737d-4488-8374-63423e23c776/",
+          "o2": "https://ucarecdn.com/e022029f-fe39-4f68-8c1d-09ee0c46a9c4/",
+          "o3": "https://ucarecdn.com/f978efd8-e317-4a45-ba4d-49adc1aa14ef/",
+          "o4": "https://ucarecdn.com/de1e2553-4f46-4bc2-8698-2241e8463fe9/"
+        },
+        "correctAnswer": [
+          "o1"
+        ]
+      },
+      "_id": "67311428039e653b0796f2b6",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "6731135d039e653b0796f2b3",
+        "categoryName": "Task 17: AAA"
+      },
+      "__v": 0
+    },
+    {
+      "question": {
+        "questionImage": {
+          "after": "https://ucarecdn.com/cb391183-a3ca-439f-8bee-d50e18333f4c/"
+        },
+        "structure": 2,
+        "questionText": "'?' में कौनसा अक्षर आयेगा ?",
+        "questionType": "single",
+        "totalOptions": 4,
+        "option": {
+          "o1": "https://ucarecdn.com/8cfb0856-cfba-4a32-b154-2d51ee1ccc30/",
+          "o2": "https://ucarecdn.com/30fd7321-3726-44f4-9ac9-a3896e34f4dc/",
+          "o3": "https://ucarecdn.com/7adf6954-3c87-456f-ba61-90dddd2fd24f/",
+          "o4": "https://ucarecdn.com/d32ec527-b3d8-4ac0-8da5-0cdd87546a98/"
+        },
+        "correctAnswer": [
+          "o2"
+        ]
+      },
+      "_id": "67311712039e653b0796f2d4",
+      "ageGroup": "common",
+      "quesCategory": {
+        "_id": "673116a1039e653b0796f2d1",
+        "categoryName": "Task 20: AAA"
+      },
+      "__v": 0
+    }
+  ]
+}
