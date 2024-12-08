@@ -80,8 +80,6 @@ class CognitiveActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         position--
-        Log.d("onBackPressed ", "--> ${supportFragmentManager.backStackEntryCount}")
-
         if (supportFragmentManager.backStackEntryCount > 1) {
             supportFragmentManager.popBackStack() // Go to the previous fragment
         } else {
@@ -103,8 +101,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(7)
-//                    val positionIndex =0
+//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(7)
+                    val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
