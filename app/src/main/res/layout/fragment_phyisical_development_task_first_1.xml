@@ -53,6 +53,9 @@
 
                 <TextView
                     android:id="@+id/tvTitle1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -61,7 +64,7 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/rl2"
+                android:id="@+id/rl3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="8dp"
@@ -78,6 +81,9 @@
                     android:src="@drawable/ic_apple" />
 
                 <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
                     android:id="@+id/tvTitle3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -96,7 +102,7 @@
             android:orientation="vertical">
 
             <RelativeLayout
-                android:id="@+id/rl3"
+                android:id="@+id/rl2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="8dp"
@@ -113,6 +119,9 @@
                     android:src="@drawable/ic_apple" />
 
                 <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
                     android:id="@+id/tvTitle2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -140,6 +149,9 @@
 
                 <TextView
                     android:id="@+id/tvTitle4"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"

@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.anganwadi.app.model.ImageModel
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 
 class DraggableItemAdapter(
     private var context: Context,
@@ -41,7 +43,10 @@ class DraggableItemAdapter(
         holder.itemView.layoutParams.width =
             context.resources.getDimensionPixelSize(R.dimen.size_40)
         holder.itemView.requestLayout()
-        holder.imageView.setImageResource(itemList[position].image)
+        Glide.with(holder.itemView.context)
+            .load(itemList[position].imageUrl)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .into(holder.imageView)
 
         // Set item as draggable
         holder.imageView.setOnLongClickListener {

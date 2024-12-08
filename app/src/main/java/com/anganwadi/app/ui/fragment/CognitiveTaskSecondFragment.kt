@@ -17,11 +17,24 @@ import com.anganwadi.app.ImageItemAdapter
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentCognitiveTaskSecondBinding
 import com.anganwadi.app.model.ImageModel
+import com.anganwadi.app.model.Question
 
 class CognitiveTaskSecondFragment : BaseFragment() {
     private var _binding: FragmentCognitiveTaskSecondBinding? = null
     private val binding get() = _binding!!
     private var imageItems: ArrayList<ImageModel> = ArrayList()
+    lateinit var question: Question
+
+    companion object {
+        const val TAG = "tag"
+        fun newFragment(question: Question): CognitiveTaskSecondFragment {
+            return CognitiveTaskSecondFragment().apply {
+                val bundle = Bundle()
+                bundle.putParcelable(TAG, question)
+                arguments = bundle
+            }
+        }
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -33,7 +46,24 @@ class CognitiveTaskSecondFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        question = arguments?.getParcelable(AestheticTaskFirstFragment.TAG) ?: Question()
+        fun addToList(image: String?){
+            if(!image.isNullOrEmpty()){
+                imageItems.add(ImageModel(imageItems.size, imageUrl =image?:""))
+            }
+        }
+        question.question?.option?.let {
+            addToList(it.o1)
+            addToList(it.o2)
+            addToList(it.o3)
+            addToList(it.o4)
+            addToList(it.o5)
+            addToList(it.o6)
+            addToList(it.o7)
+            addToList(it.o8)
+            addToList(it.o9)
+            addToList(it.o10)
+        }
 
         val orientation = resources.configuration.orientation
         pageForMax5()
@@ -80,13 +110,6 @@ class CognitiveTaskSecondFragment : BaseFragment() {
     }
 
     private fun pageForMax4() {
-        imageItems = arrayListOf(
-            ImageModel(0, R.drawable.ic_mango),
-            ImageModel(1, R.drawable.ic_dog),
-            ImageModel(2, R.drawable.ic_apple),
-            ImageModel(3, R.drawable.ic_cat),
-            ImageModel(4, R.drawable.ic_banana),
-        )
         binding.rlDropped3.hideView()
         binding.rlDropped4.hideView()
         val orientation = resources.configuration.orientation
@@ -108,21 +131,7 @@ class CognitiveTaskSecondFragment : BaseFragment() {
         }
     }
     private fun pageForMax5() {
-        imageItems = arrayListOf(
-            ImageModel(0, R.drawable.ic_pen),
-            ImageModel(1, R.drawable.ic_spoon),
-            ImageModel(2, R.drawable.ic_papaya),
-            ImageModel(3, R.drawable.ic_dog),
-            ImageModel(4, R.drawable.ic_knife),
-            ImageModel(5, R.drawable.ic_cow),
-            ImageModel(6, R.drawable.ic_lion),
-            ImageModel(7, R.drawable.ic_mango),
-            ImageModel(8, R.drawable.ic_orange),
-            ImageModel(9, R.drawable.ic_cat),
-            ImageModel(10, R.drawable.ic_apple),
-            ImageModel(11, R.drawable.ic_banana),
-            ImageModel(12, R.drawable.ic_comb),
-        )
+
         binding.rlDropped4.hideView()
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
@@ -147,24 +156,6 @@ class CognitiveTaskSecondFragment : BaseFragment() {
         }
     }
     private fun pageForMax6() {
-        imageItems = arrayListOf(
-            ImageModel(0, R.drawable.ic_lion),
-            ImageModel(1, R.drawable.ic_bicycle),
-            ImageModel(2, R.drawable.ic_parrot),
-            ImageModel(3, R.drawable.ic_sheep),
-            ImageModel(4, R.drawable.ic_orange),
-            ImageModel(5, R.drawable.ic_scissors),
-            ImageModel(6, R.drawable.ic_pineapple),
-            ImageModel(7, R.drawable.ic_spoon),
-            ImageModel(8, R.drawable.ic_car),
-            ImageModel(9, R.drawable.ic_papaya),
-            ImageModel(10, R.drawable.ic_knife),
-            ImageModel(11, R.drawable.ic_bus),
-            ImageModel(12, R.drawable.ic_hammer),
-            ImageModel(13, R.drawable.ic_dog),
-            ImageModel(14, R.drawable.ic_airoplane),
-            ImageModel(15, R.drawable.ic_apple),
-        )
 
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
