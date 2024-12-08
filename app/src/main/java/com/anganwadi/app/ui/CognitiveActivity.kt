@@ -46,6 +46,7 @@ import retrofit2.Response
 class CognitiveActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCognitiveBinding
     private var position = 20
+    private var prevStructure = 0
     private lateinit var questionsResponse: ResponseModel
     private var isUserAnsweredTheQuestion = false
 
@@ -61,9 +62,19 @@ class CognitiveActivity : AppCompatActivity() {
                     return@setOnClickListener
                 }
                 position++
-                if (position < questionsResponse.getQuestions().size) {
-                    questionsResponse.getQuestions()[position].let {
-                        showFragmentByType(it.question?.structure, it)
+//                if (position < questionsResponse.getQuestions().size) {
+//                    questionsResponse.getQuestions()[position].let {
+//                        showFragmentByType(it.question?.structure, it)
+//                    }
+//                }
+                while(questionsResponse.getQuestions()[position].question?.structure == prevStructure)position++
+                questionsResponse.getQuestions()[position].let {
+                    val str = it.question?.structure
+                    if (str != null) {
+                        prevStructure=str
+                    }
+                    if (position < questionsResponse.getQuestions().size) {
+                        showFragmentByType(str, it)
                     }
                 }
             }
@@ -106,6 +117,7 @@ class CognitiveActivity : AppCompatActivity() {
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
+                        prevStructure= it.question?.structure!!
                     }
                     position=positionIndex
                     binding.loadingIndicator.visibility= View.GONE
