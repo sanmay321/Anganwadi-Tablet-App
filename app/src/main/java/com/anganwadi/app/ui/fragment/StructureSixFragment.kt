@@ -105,7 +105,11 @@ class StructureSixFragment : Fragment() {
             arrayOf("o1","o2","o3","o4")
         arrayList.forEachIndexed { index, view ->
             view.tag=arrayListTag[index]
-            view.setImageResource(R.drawable.ic_egg_place_holder)
+            Glide.with(requireContext())
+                .load(question.question?.option?.inactive)
+                .transition(DrawableTransitionOptions.withCrossFade())
+                .into(view)
+//            view.setImageResource(R.drawable.ic_egg_place_holder)
         }
         arrayList.forEach { view ->
             view.setOnClickListener {
@@ -113,7 +117,11 @@ class StructureSixFragment : Fragment() {
                     Toast.makeText(requireContext(), "correct",Toast.LENGTH_SHORT).show()
                 }
                 clearAllBackground()
-                view.setImageResource(R.drawable.ic_egg_selected)
+                Glide.with(requireContext())
+                    .load(question.question?.option?.active)
+                    .transition(DrawableTransitionOptions.withCrossFade())
+                    .into(view)
+//                view.setImageResource(R.drawable.ic_egg_selected)
                 (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
             }
         }
