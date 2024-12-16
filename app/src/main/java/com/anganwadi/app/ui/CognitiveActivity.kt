@@ -15,6 +15,7 @@ import com.anganwadi.app.ui.fragment.StructureFiveFragment
 import com.anganwadi.app.ui.fragment.StructureEightFragment
 import com.anganwadi.app.ui.fragment.StructureSevenFragment
 import com.anganwadi.app.ui.fragment.StructureFourFragment
+import com.anganwadi.app.ui.fragment.StructureFragmentTree
 import com.anganwadi.app.ui.fragment.StructureOneFragment
 import com.anganwadi.app.ui.fragment.StructureThreeFragment
 import com.anganwadi.app.ui.fragment.StructureTwoFragment
@@ -84,7 +85,7 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(8)
+//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(3)
                     val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
@@ -101,7 +102,7 @@ class CognitiveActivity : AppCompatActivity() {
     }
 
     private fun showFragmentByType(structure: Int?, question: Question) {
-        Log.d("showFragmentByType ", "--> ${structure}")
+        Log.d("showFragmentByType ", "--> $structure")
         isUserAnsweredTheQuestion = false
         when (structure) {
             1->{

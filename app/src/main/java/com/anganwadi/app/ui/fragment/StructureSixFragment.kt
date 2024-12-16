@@ -67,31 +67,9 @@ class StructureSixFragment : Fragment() {
         Glide.with(requireActivity())
             .load(question.question?.questionImage?.after)
             .transition(DrawableTransitionOptions.withCrossFade())
-            .listener(object : RequestListener<Drawable> {
-                override fun onLoadFailed(
-                    e: GlideException?,
-                    model: Any?,
-                    target: Target<Drawable>?,
-                    isFirstResource: Boolean
-                ): Boolean {
-                    return false
-                }
+            .into(binding.ivClue)
+        setView()
 
-                override fun onResourceReady(
-                    resource: Drawable?,
-                    model: Any?,
-                    target: Target<Drawable>?,
-                    dataSource: com.bumptech.glide.load.DataSource?,
-                    isFirstResource: Boolean
-                ): Boolean {
-                    CoroutineScope(Dispatchers.Main).launch {
-                        delay(2000)
-                        setView()
-                    }
-                    return false
-                }
-            })
-            .into(binding.iv)
     }
 
     private fun setView() {

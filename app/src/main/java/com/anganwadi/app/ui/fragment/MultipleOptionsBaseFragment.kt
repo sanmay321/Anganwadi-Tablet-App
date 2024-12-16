@@ -40,6 +40,8 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         val arrayList =
             arrayOf(binding.btnOne, binding.btnTwo, binding.btnThree, binding.btnFour)
+        val arrayListIv =
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
         val arrayListTag =
             arrayOf("o1", "o2", "o3", "o4")
         arrayList.forEachIndexed { index, view ->
@@ -50,7 +52,7 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
                     Toast.makeText(requireContext(), "correct", Toast.LENGTH_SHORT).show()
                 }
                 (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
-                view.background =
+                arrayListIv[index].background =
                     ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
             }
         }
@@ -59,8 +61,11 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
     private fun clearAllBackground() {
         val arrayList =
             arrayOf(binding.btnOne, binding.btnTwo, binding.btnThree, binding.btnFour)
-        arrayList.forEach {
-            it.background = null
+        val arrayListIv =
+            arrayOf(binding.ivBtnOne, binding.ivBtnTwo, binding.ivBtnThree, binding.ivBtnFour)
+        arrayList.forEachIndexed { index, relativeLayout ->
+            relativeLayout.background = null
+            arrayListIv[index].background =null
         }
 
     }
