@@ -37,6 +37,11 @@ class CognitiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCognitiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        if(intent.getBooleanExtra("isTree", false)){
+            binding.loadingIndicator.visibility= View.GONE
+            showFragmentByType(9, Question())
+            return
+        }
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
                 if (!isUserAnsweredTheQuestion) {
@@ -85,8 +90,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(3)
-                    val positionIndex =0
+                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(3)
+//                    val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)
@@ -129,7 +134,9 @@ class CognitiveActivity : AppCompatActivity() {
             8 -> {
                 replaceFragment(StructureEightFragment.newFragment(question))
             }
-
+            9 -> {
+                replaceFragment(StructureFragmentTree.newFragment(question))
+            }
         }
     }
 

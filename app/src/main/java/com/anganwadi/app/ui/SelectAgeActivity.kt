@@ -30,5 +30,10 @@ class SelectAgeActivity : AppCompatActivity() {
         binding.btnNext.setOnClickListener {
             startActivity(Intent(this, CognitiveActivity::class.java))
         }
+        binding.btnTree.setOnClickListener {
+            val intent = Intent(this, CognitiveActivity::class.java)
+            intent.putExtra("isTree", true)
+            startActivity(intent)
+        }
     }
 }
