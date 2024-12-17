@@ -203,35 +203,44 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
             .into(binding.ivImageClue)
     }
 
-    fun setImage(iv: ImageView, image: String?) {
-        Glide.with(this)
-            .asBitmap()
-            .load(image)
-            .into(object : CustomTarget<Bitmap>() {
-                override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap>?) {
-                    val imageWidth = resource.width
-                    val imageHeight = resource.height
-
-                    // Get the aspect ratio
-                    val aspectRatio = imageHeight.toFloat() / imageWidth
-
-                    // Set the ImageView's height based on the image's width and aspect ratio
-                    val layoutParams = iv.layoutParams
-                    layoutParams.height = (iv.width * aspectRatio).toInt()
-                    iv.layoutParams = layoutParams
-
-                    // Load the image into the ImageView
-                    iv.setImageBitmap(resource)
-                }
-
-                override fun onLoadCleared(placeholder: Drawable?) {
-                    // Handle cleanup if needed
-                }
-            })
+    fun setImage(imageView: ImageView, image: String?) {
         Glide.with(requireActivity())
             .load(image)
             .transition(DrawableTransitionOptions.withCrossFade())
-            .into(iv)
+            .listener(object : RequestListener<Drawable> {
+                override fun onLoadFailed(
+                    e: GlideException?,
+                    model: Any?,
+                    target: Target<Drawable>?,
+                    isFirstResource: Boolean
+                ): Boolean {
+                    return false
+                }
+
+                override fun onResourceReady(
+                    resource: Drawable?,
+                    model: Any?,
+                    target: Target<Drawable>?,
+                    dataSource: com.bumptech.glide.load.DataSource?,
+                    isFirstResource: Boolean
+                ): Boolean {
+                    imageView.post {
+                        val drawable = imageView.drawable
+                        if (drawable != null) {
+                            // Mengambil lebar asli gambar
+                            val imageWidth = drawable.intrinsicWidth
+                            val imageHeight = drawable.intrinsicHeight
+
+                            // Menyesuaikan ImageView dengan ukuran gambar
+                            imageView.layoutParams.width = imageWidth
+                            imageView.layoutParams.height = imageHeight
+                            imageView.requestLayout()
+                        }
+                    }
+                    return false
+                }
+            })
+            .into(imageView)
     }
 
     fun setUpOptionsView(totalOptions: Int?) {
