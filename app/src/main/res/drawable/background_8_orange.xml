@@ -5,7 +5,7 @@
      -->
     <item>
         <shape>
-            <corners android:radius="8dp"/>
+            <corners android:radius="16dp"/>
             <solid android:angle="270.0" android:color="@color/lightorange"/>
         </shape>
 

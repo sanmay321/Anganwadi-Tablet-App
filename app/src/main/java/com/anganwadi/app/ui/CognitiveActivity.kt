@@ -44,11 +44,11 @@ class CognitiveActivity : AppCompatActivity() {
         }
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
-                if (!isUserAnsweredTheQuestion) {
-                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
-                        .show()
-                    return@setOnClickListener
-                }
+//                if (!isUserAnsweredTheQuestion) {
+//                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
+//                        .show()
+//                    return@setOnClickListener
+//                }
                 position++
                 if (position < questionsResponse.getQuestions().size) {
                     questionsResponse.getQuestions()[position].let {
@@ -90,8 +90,8 @@ class CognitiveActivity : AppCompatActivity() {
             override fun onResponse(call: Call<ResponseModel>, response: Response<ResponseModel>) {
                 if (response.isSuccessful) {
                     questionsResponse = response.body() ?: ResponseModel()
-                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(3)
-//                    val positionIndex =0
+//                    val positionIndex =questionsResponse.getQuestions().map { it.question?.structure }.indexOf(3)
+                    val positionIndex =0
                     val question = questionsResponse.getQuestions()[positionIndex]
                     question.let {
                         showFragmentByType(it.question?.structure, it)

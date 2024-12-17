@@ -2,6 +2,7 @@ package com.anganwadi.app.ui.fragment
 
 import android.content.res.Configuration
 import android.content.res.Resources
+import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -20,7 +21,9 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.target.Target
+import com.bumptech.glide.request.transition.Transition
 
 open class MultipleOptionsBaseFragment : BaseFragment() {
     private var _binding: FragmentMultipleOptionsBinding? = null
@@ -201,6 +204,30 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
     }
 
     fun setImage(iv: ImageView, image: String?) {
+        Glide.with(this)
+            .asBitmap()
+            .load(image)
+            .into(object : CustomTarget<Bitmap>() {
+                override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap>?) {
+                    val imageWidth = resource.width
+                    val imageHeight = resource.height
+
+                    // Get the aspect ratio
+                    val aspectRatio = imageHeight.toFloat() / imageWidth
+
+                    // Set the ImageView's height based on the image's width and aspect ratio
+                    val layoutParams = iv.layoutParams
+                    layoutParams.height = (iv.width * aspectRatio).toInt()
+                    iv.layoutParams = layoutParams
+
+                    // Load the image into the ImageView
+                    iv.setImageBitmap(resource)
+                }
+
+                override fun onLoadCleared(placeholder: Drawable?) {
+                    // Handle cleanup if needed
+                }
+            })
         Glide.with(requireActivity())
             .load(image)
             .transition(DrawableTransitionOptions.withCrossFade())
