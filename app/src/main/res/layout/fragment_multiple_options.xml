@@ -210,7 +210,7 @@
             android:layout_weight="1">
 
             <ImageView
-                android:scaleType="centerCrop"
+                android:scaleType="fitCenter"
                 android:id="@+id/iv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
