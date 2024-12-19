@@ -44,11 +44,7 @@ class StructureFourFragment: MultipleOptionsBaseFragment() {
             playFromRaw(binding.ivIconSound,question.question?.questionSound?:"")
         }
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
-        if(isDemo){
-            binding.tvDemo.visibility=View.VISIBLE
-        }else{
-            binding.tvDemo.visibility=View.GONE
-        }
+        setDemoView(isDemo)
     }
     private fun playFromRaw(imageView: ImageView, music: String) {
         imageView.setImageResource(R.drawable.ic_sound_on)

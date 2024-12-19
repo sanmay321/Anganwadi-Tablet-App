@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.anganwadi.app.databinding.ActivityCognitiveBinding
@@ -44,11 +45,11 @@ class CognitiveActivity : AppCompatActivity() {
         }
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
-//                if (!isUserAnsweredTheQuestion) {
-//                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
-//                        .show()
-//                    return@setOnClickListener
-//                }
+                if (!isUserAnsweredTheQuestion) {
+                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
+                        .show()
+                    return@setOnClickListener
+                }
                 position++
                 if (position < questionsResponse.getQuestions().size) {
                     questionsResponse.getQuestions()[position].let {
@@ -58,6 +59,11 @@ class CognitiveActivity : AppCompatActivity() {
             }
         }
         fetchQuestion()
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Do nothing to block the back button
+            }
+        })
     }
 
     private fun replaceFragment(fragment: Fragment) {
@@ -67,15 +73,17 @@ class CognitiveActivity : AppCompatActivity() {
             .commit()
     }
 
-    override fun onBackPressed() {
-        position--
-        if (supportFragmentManager.backStackEntryCount > 1) {
-            supportFragmentManager.popBackStack() // Go to the previous fragment
-        } else {
-            super.onBackPressed() // Exit the activity
-            finish()
-        }
-    }
+
+//    override fun onBackPressed() {
+//        return
+//        position--
+//        if (supportFragmentManager.backStackEntryCount > 1) {
+//            supportFragmentManager.popBackStack() // Go to the previous fragment
+//        } else {
+//            super.onBackPressed() // Exit the activity
+//            finish()
+//        }
+//    }
 
     private fun fetchQuestion() {
         binding.loadingIndicator.visibility= View.VISIBLE
@@ -142,5 +150,8 @@ class CognitiveActivity : AppCompatActivity() {
 
     fun setUserAnswerTheQuestion() {
         isUserAnsweredTheQuestion = true
+    }
+    fun goToNextScreen(){
+        binding.btnNext.performClick()
     }
 }

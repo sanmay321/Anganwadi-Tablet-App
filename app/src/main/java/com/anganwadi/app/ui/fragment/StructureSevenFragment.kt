@@ -11,6 +11,7 @@ import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentStructureSevenBinding
 import com.anganwadi.app.model.Question
+import com.anganwadi.app.ui.CognitiveActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import kotlinx.coroutines.CoroutineScope
@@ -83,11 +84,7 @@ class StructureSevenFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         question = arguments?.getParcelable(StructureSixFragment.TAG) ?: Question()
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
-        if(isDemo){
-            binding.tvDemo.visibility=View.VISIBLE
-        }else{
-            binding.tvDemo.visibility=View.GONE
-        }
+        setDemoView(isDemo)
         val senses = listOf(
             binding.flSense1,
             binding.flSense2,
@@ -278,6 +275,18 @@ class StructureSevenFragment : BaseFragment() {
                 .load(optionAction[index].src)
                 .transition(DrawableTransitionOptions.withCrossFade())
                 .into(iv)
+        }
+    }
+    fun setDemoView(isDemo : Boolean){
+        binding.tvDemo.visibility=View.VISIBLE
+        if(isDemo){
+            binding.tvDemo.text="Demo"
+        }else{
+            binding.tvDemo.text="Skip"
+            binding.tvDemo.setOnClickListener {
+                (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+                (requireActivity() as CognitiveActivity).goToNextScreen()
+            }
         }
     }
 }

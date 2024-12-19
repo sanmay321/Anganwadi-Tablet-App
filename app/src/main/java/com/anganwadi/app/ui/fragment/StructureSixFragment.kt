@@ -26,7 +26,7 @@ class StructureSixFragment : Fragment() {
     private var _binding: FragmentStructureSixBinding? = null
     private val binding get() = _binding!!
     private lateinit var question: Question
-    private var correctAnswer: String=""
+    private var correctAnswer: String = ""
 
     companion object {
         const val TAG = "tag"
@@ -53,16 +53,12 @@ class StructureSixFragment : Fragment() {
         question = arguments?.getParcelable(TAG) ?: Question()
         question.question?.let {
             if (it.correctAnswer.isNotEmpty()) {
-                correctAnswer=it.correctAnswer[0]
+                correctAnswer = it.correctAnswer[0]
                 Log.d("question ", "--> ${it.correctAnswer[0]}")
             }
         }
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
-        if(isDemo){
-            binding.tvDemo.visibility=View.VISIBLE
-        }else{
-            binding.tvDemo.visibility=View.GONE
-        }
+        setDemoView(isDemo)
         binding.tvTitle.text = question.question?.questionText
         Glide.with(requireActivity())
             .load(question.question?.questionImage?.after)
@@ -80,9 +76,9 @@ class StructureSixFragment : Fragment() {
         val arrayList =
             arrayOf(binding.rl1, binding.rl2, binding.rl3, binding.rl4)
         val arrayListTag =
-            arrayOf("o1","o2","o3","o4")
+            arrayOf("o1", "o2", "o3", "o4")
         arrayList.forEachIndexed { index, view ->
-            view.tag=arrayListTag[index]
+            view.tag = arrayListTag[index]
             Glide.with(requireContext())
                 .load(question.question?.option?.inactive)
                 .transition(DrawableTransitionOptions.withCrossFade())
@@ -91,9 +87,7 @@ class StructureSixFragment : Fragment() {
         }
         arrayList.forEach { view ->
             view.setOnClickListener {
-                if(view.tag==correctAnswer){
-                    Toast.makeText(requireContext(), "correct",Toast.LENGTH_SHORT).show()
-                }
+
                 clearAllBackground()
                 Glide.with(requireContext())
                     .load(question.question?.option?.active)
@@ -113,4 +107,16 @@ class StructureSixFragment : Fragment() {
         }
     }
 
+    fun setDemoView(isDemo: Boolean) {
+        binding.tvDemo.visibility = View.VISIBLE
+        if (isDemo) {
+            binding.tvDemo.text = "Demo"
+        } else {
+            binding.tvDemo.text = "Skip"
+            binding.tvDemo.setOnClickListener {
+                (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+                (requireActivity() as CognitiveActivity).goToNextScreen()
+            }
+        }
+    }
 }

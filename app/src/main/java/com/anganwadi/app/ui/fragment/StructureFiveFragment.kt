@@ -47,11 +47,7 @@ class StructureFiveFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         question = arguments?.getParcelable(StructureSixFragment.TAG) ?: Question()
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
-        if(isDemo){
-            binding.tvDemo.visibility=View.VISIBLE
-        }else{
-            binding.tvDemo.visibility=View.GONE
-        }
+        setDemoView(isDemo)
         fun addToList(image: String?){
             if(!image.isNullOrEmpty()){
                 imageItems.add(ImageModel(imageItems.size, imageUrl =image))
@@ -154,6 +150,18 @@ class StructureFiveFragment : BaseFragment() {
                 GridLayoutManager(requireActivity(), 4)
             binding.recyclerViewItems.layoutManager =
                 GridLayoutManager(requireActivity(), 5)
+        }
+    }
+    fun setDemoView(isDemo : Boolean){
+        binding.tvDemo.visibility=View.VISIBLE
+        if(isDemo){
+            binding.tvDemo.text="Demo"
+        }else{
+            binding.tvDemo.text="Skip"
+            binding.tvDemo.setOnClickListener {
+                (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+                (requireActivity() as CognitiveActivity).goToNextScreen()
+            }
         }
     }
 }

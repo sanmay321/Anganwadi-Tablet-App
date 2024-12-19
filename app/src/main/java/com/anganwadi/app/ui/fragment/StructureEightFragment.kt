@@ -9,6 +9,7 @@ import com.anganwadi.app.BaseFragment
 import com.anganwadi.app.R
 import com.anganwadi.app.databinding.FragmentStructureEightBinding
 import com.anganwadi.app.model.Question
+import com.anganwadi.app.ui.CognitiveActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 
@@ -43,11 +44,7 @@ class StructureEightFragment: BaseFragment() {
         binding.tvTitle.text=question.question?.questionText
         setImage(binding.iv, question.question?.questionImage?.after)
         val isDemo = (question.quesCategory?.categoryName ?: "").contains("AAA")
-        if(isDemo){
-            binding.tvDemo.visibility=View.VISIBLE
-        }else{
-            binding.tvDemo.visibility=View.GONE
-        }
+        setDemoView(isDemo)
     }
 
     override fun onDestroyView() {
@@ -59,5 +56,17 @@ class StructureEightFragment: BaseFragment() {
             .load(image)
             .transition(DrawableTransitionOptions.withCrossFade())
             .into(iv)
+    }
+    fun setDemoView(isDemo : Boolean){
+        binding.tvDemo.visibility=View.VISIBLE
+        if(isDemo){
+            binding.tvDemo.text="Demo"
+        }else{
+            binding.tvDemo.text="Skip"
+            binding.tvDemo.setOnClickListener {
+                (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+                (requireActivity() as CognitiveActivity).goToNextScreen()
+            }
+        }
     }
 }

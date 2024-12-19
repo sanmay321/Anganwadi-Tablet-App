@@ -51,9 +51,9 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
             view.tag = arrayListTag[index]
             view.setOnClickListener {
                 clearAllBackground()
-                if (view.tag == correctAnswer) {
-                    Toast.makeText(requireContext(), "correct", Toast.LENGTH_SHORT).show()
-                }
+//                if (view.tag == correctAnswer) {
+//                    Toast.makeText(requireContext(), "correct", Toast.LENGTH_SHORT).show()
+//                }
                 (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
                 arrayListIv[index].background =
                     ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
@@ -231,9 +231,10 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
                             val imageWidth = drawable.intrinsicWidth
                             val imageHeight = drawable.intrinsicHeight
 
-                            // Menyesuaikan ImageView dengan ukuran gambar
-                            imageView.layoutParams.width = imageWidth
-                            imageView.layoutParams.height = imageHeight
+                            val margin = (16 * imageView.context.resources.displayMetrics.density).toInt()
+
+                            imageView.layoutParams.width = imageWidth + margin
+                            imageView.layoutParams.height = imageHeight + margin
                             imageView.requestLayout()
                         }
                     }
@@ -270,5 +271,17 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
             question.question?.option?.o4
         )
 
+    }
+    fun setDemoView(isDemo : Boolean){
+        binding.tvDemo.visibility=View.VISIBLE
+        if(isDemo){
+            binding.tvDemo.text="Demo"
+        }else{
+            binding.tvDemo.text="Skip"
+            binding.tvDemo.setOnClickListener {
+                (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
+                (requireActivity() as CognitiveActivity).goToNextScreen()
+            }
+        }
     }
 }
