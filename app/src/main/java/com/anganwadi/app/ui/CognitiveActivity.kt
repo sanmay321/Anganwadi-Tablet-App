@@ -44,11 +44,11 @@ class CognitiveActivity : AppCompatActivity() {
         }
         binding.btnNext.setOnClickListener {
             if (questionsResponse.getQuestions().isNotEmpty()) {
-//                if (!isUserAnsweredTheQuestion) {
-//                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
-//                        .show()
-//                    return@setOnClickListener
-//                }
+                if (!isUserAnsweredTheQuestion) {
+                    Toast.makeText(this, "You have answer the question", Toast.LENGTH_SHORT)
+                        .show()
+                    return@setOnClickListener
+                }
                 position++
                 if (position < questionsResponse.getQuestions().size) {
                     questionsResponse.getQuestions()[position].let {
@@ -68,13 +68,14 @@ class CognitiveActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        position--
-        if (supportFragmentManager.backStackEntryCount > 1) {
-            supportFragmentManager.popBackStack() // Go to the previous fragment
-        } else {
+//        position--
+//        if (supportFragmentManager.backStackEntryCount > 1) {
+//            supportFragmentManager.popBackStack() // Go to the previous fragment
+//        } else {
             super.onBackPressed() // Exit the activity
+            Toast.makeText(this, "Exam finished", Toast.LENGTH_SHORT).show()
             finish()
-        }
+//        }
     }
 
     private fun fetchQuestion() {

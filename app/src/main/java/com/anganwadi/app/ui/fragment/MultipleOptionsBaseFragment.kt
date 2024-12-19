@@ -56,7 +56,7 @@ open class MultipleOptionsBaseFragment : BaseFragment() {
                 }
                 (requireActivity() as CognitiveActivity).setUserAnswerTheQuestion()
                 arrayListIv[index].background =
-                    ContextCompat.getDrawable(requireActivity(), R.drawable.background_8_orange)
+                    ContextCompat.getDrawable(requireActivity(), R.drawable.background_light_orange_border_orange)
             }
         }
     }
