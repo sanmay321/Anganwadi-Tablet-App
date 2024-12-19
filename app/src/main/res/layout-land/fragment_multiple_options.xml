@@ -90,110 +90,110 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:background="@drawable/background_8_orange"-->
-<!--            android:gravity="center"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:paddingHorizontal="32dp"-->
-<!--            android:paddingVertical="24dp">-->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:background="@drawable/background_8_orange"-->
+        <!--            android:gravity="center"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:paddingHorizontal="32dp"-->
+        <!--            android:paddingVertical="24dp">-->
 
-<!--            <RelativeLayout-->
-<!--                android:id="@+id/shapeStar"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginHorizontal="4dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:gravity="center">-->
+        <!--            <RelativeLayout-->
+        <!--                android:id="@+id/shapeStar"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginHorizontal="4dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="center">-->
 
-<!--                <ImageView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:src="@drawable/ic_star" />-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:src="@drawable/ic_star" />-->
 
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_centerInParent="true"-->
-<!--                    android:gravity="center"-->
-<!--                    android:src="@drawable/ic_launcher_foreground"-->
-<!--                    android:text="o"-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="24sp" />-->
-<!--            </RelativeLayout>-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_centerInParent="true"-->
+        <!--                    android:gravity="center"-->
+        <!--                    android:src="@drawable/ic_launcher_foreground"-->
+        <!--                    android:text="o"-->
+        <!--                    android:textColor="@color/black"-->
+        <!--                    android:textSize="24sp" />-->
+        <!--            </RelativeLayout>-->
 
-<!--            <RelativeLayout-->
-<!--                android:id="@+id/shapeCircle"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginHorizontal="4dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:gravity="center">-->
+        <!--            <RelativeLayout-->
+        <!--                android:id="@+id/shapeCircle"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginHorizontal="4dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="center">-->
 
-<!--                <ImageView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:src="@drawable/ic_circle" />-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:src="@drawable/ic_circle" />-->
 
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_centerInParent="true"-->
-<!--                    android:gravity="center"-->
-<!--                    android:text="="-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="24sp" />-->
-<!--            </RelativeLayout>-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_centerInParent="true"-->
+        <!--                    android:gravity="center"-->
+        <!--                    android:text="="-->
+        <!--                    android:textColor="@color/black"-->
+        <!--                    android:textSize="24sp" />-->
+        <!--            </RelativeLayout>-->
 
-<!--            <RelativeLayout-->
-<!--                android:id="@+id/shapeSquare"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginHorizontal="4dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:gravity="center">-->
+        <!--            <RelativeLayout-->
+        <!--                android:id="@+id/shapeSquare"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginHorizontal="4dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="center">-->
 
-<!--                <ImageView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:src="@drawable/ic_square" />-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:src="@drawable/ic_square" />-->
 
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_centerInParent="true"-->
-<!--                    android:gravity="center"-->
-<!--                    android:text="+"-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="24sp" />-->
-<!--            </RelativeLayout>-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_centerInParent="true"-->
+        <!--                    android:gravity="center"-->
+        <!--                    android:text="+"-->
+        <!--                    android:textColor="@color/black"-->
+        <!--                    android:textSize="24sp" />-->
+        <!--            </RelativeLayout>-->
 
-<!--            <RelativeLayout-->
-<!--                android:id="@+id/shapeTriangle"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginHorizontal="4dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:gravity="center">-->
+        <!--            <RelativeLayout-->
+        <!--                android:id="@+id/shapeTriangle"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginHorizontal="4dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:gravity="center">-->
 
-<!--                <ImageView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:src="@drawable/ic_triangle" />-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:src="@drawable/ic_triangle" />-->
 
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_centerInParent="true"-->
-<!--                    android:gravity="center"-->
-<!--                    android:text="-"-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="24sp" />-->
-<!--            </RelativeLayout>-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_centerInParent="true"-->
+        <!--                    android:gravity="center"-->
+        <!--                    android:text="-"-->
+        <!--                    android:textColor="@color/black"-->
+        <!--                    android:textSize="24sp" />-->
+        <!--            </RelativeLayout>-->
 
 
-<!--        </LinearLayout>-->
+        <!--        </LinearLayout>-->
     </FrameLayout>
 
 
@@ -240,11 +240,16 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option1">
 
                 <ImageView
                     android:id="@+id/ivBtnOne"
                     android:src="@drawable/ic_cognitive_task_option1"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </RelativeLayout>
@@ -255,10 +260,15 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option2">
                 <ImageView
                     android:id="@+id/ivBtnTwo"
                     android:src="@drawable/ic_cognitive_task_option1"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </RelativeLayout>
@@ -269,10 +279,15 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option3">
                 <ImageView
                     android:id="@+id/ivBtnThree"
                     android:src="@drawable/ic_cognitive_task_option1"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </RelativeLayout>
@@ -282,14 +297,21 @@
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:src="@drawable/ic_cognitive_task_option4">
+                android:padding="2dp"
+                android:background="@drawable/backgound_8__border_navy"
+                android:gravity="center">
+
                 <ImageView
                     android:id="@+id/ivBtnFour"
                     android:src="@drawable/ic_cognitive_task_option1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"/>
             </RelativeLayout>
+
+
         </LinearLayout>
 
 

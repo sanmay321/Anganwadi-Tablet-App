@@ -73,17 +73,16 @@ class CognitiveActivity : AppCompatActivity() {
             .commit()
     }
 
-
-//    override fun onBackPressed() {
-//        return
+    override fun onBackPressed() {
 //        position--
 //        if (supportFragmentManager.backStackEntryCount > 1) {
 //            supportFragmentManager.popBackStack() // Go to the previous fragment
 //        } else {
-//            super.onBackPressed() // Exit the activity
-//            finish()
+            super.onBackPressed() // Exit the activity
+            Toast.makeText(this, "Exam finished", Toast.LENGTH_SHORT).show()
+            finish()
 //        }
-//    }
+    }
 
     private fun fetchQuestion() {
         binding.loadingIndicator.visibility= View.VISIBLE

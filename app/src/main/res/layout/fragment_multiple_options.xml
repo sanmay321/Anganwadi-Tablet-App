@@ -246,10 +246,15 @@
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option1">
 
                 <ImageView
                     android:id="@+id/ivBtnOne"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_cognitive_task_option1" />
@@ -262,10 +267,15 @@
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option2">
 
                 <ImageView
                     android:id="@+id/ivBtnTwo"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_cognitive_task_option1" />
@@ -289,10 +299,15 @@
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option3">
 
                 <ImageView
                     android:id="@+id/ivBtnThree"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_cognitive_task_option1" />
@@ -305,10 +320,15 @@
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:padding="1dp"
+                android:background="@drawable/backgound_8__border_navy"
                 android:src="@drawable/ic_cognitive_task_option4">
 
                 <ImageView
                     android:id="@+id/ivBtnFour"
+                    android:padding="20dp"
+
+                    android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_cognitive_task_option1" />
